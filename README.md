@@ -1,0 +1,1 @@
+# go-win32api-gen
