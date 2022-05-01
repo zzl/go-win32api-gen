@@ -5081,6 +5081,26 @@
       "Attrs": []
     },
     {
+      "Name": "LOCALE_NAME_INVARIANT",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "",
+      "Attrs": []
+    },
+    {
+      "Name": "LOCALE_NAME_SYSTEM_DEFAULT",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "!x-sys-default-locale",
+      "Attrs": []
+    },
+    {
       "Name": "MIN_SPELLING_NTDDI",
       "Type": {
         "Kind": "Native",
@@ -5514,6 +5534,16 @@
       "Attrs": []
     },
     {
+      "Name": "U_DEBUG",
+      "Type": {
+        "Kind": "Native",
+        "Name": "UInt32"
+      },
+      "ValueType": "UInt32",
+      "Value": 1,
+      "Attrs": []
+    },
+    {
       "Name": "UCLN_NO_AUTO_CLEANUP",
       "Type": {
         "Kind": "Native",
@@ -5571,6 +5601,176 @@
       },
       "ValueType": "UInt32",
       "Value": 1,
+      "Attrs": []
+    },
+    {
+      "Name": "U_HAVE_LIB_SUFFIX",
+      "Type": {
+        "Kind": "Native",
+        "Name": "UInt32"
+      },
+      "ValueType": "UInt32",
+      "Value": 1,
+      "Attrs": []
+    },
+    {
+      "Name": "U_LIB_SUFFIX_C_NAME_STRING",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "",
+      "Attrs": []
+    },
+    {
+      "Name": "UCONFIG_ONLY_COLLATION",
+      "Type": {
+        "Kind": "Native",
+        "Name": "UInt32"
+      },
+      "ValueType": "UInt32",
+      "Value": 0,
+      "Attrs": []
+    },
+    {
+      "Name": "UCONFIG_NO_BREAK_ITERATION",
+      "Type": {
+        "Kind": "Native",
+        "Name": "UInt32"
+      },
+      "ValueType": "UInt32",
+      "Value": 1,
+      "Attrs": []
+    },
+    {
+      "Name": "UCONFIG_NO_IDNA",
+      "Type": {
+        "Kind": "Native",
+        "Name": "UInt32"
+      },
+      "ValueType": "UInt32",
+      "Value": 1,
+      "Attrs": []
+    },
+    {
+      "Name": "UCONFIG_NO_FORMATTING",
+      "Type": {
+        "Kind": "Native",
+        "Name": "UInt32"
+      },
+      "ValueType": "UInt32",
+      "Value": 1,
+      "Attrs": []
+    },
+    {
+      "Name": "UCONFIG_NO_TRANSLITERATION",
+      "Type": {
+        "Kind": "Native",
+        "Name": "UInt32"
+      },
+      "ValueType": "UInt32",
+      "Value": 1,
+      "Attrs": []
+    },
+    {
+      "Name": "UCONFIG_NO_REGULAR_EXPRESSIONS",
+      "Type": {
+        "Kind": "Native",
+        "Name": "UInt32"
+      },
+      "ValueType": "UInt32",
+      "Value": 1,
+      "Attrs": []
+    },
+    {
+      "Name": "UCONFIG_NO_FILE_IO",
+      "Type": {
+        "Kind": "Native",
+        "Name": "UInt32"
+      },
+      "ValueType": "UInt32",
+      "Value": 0,
+      "Attrs": []
+    },
+    {
+      "Name": "UCONFIG_NO_CONVERSION",
+      "Type": {
+        "Kind": "Native",
+        "Name": "UInt32"
+      },
+      "ValueType": "UInt32",
+      "Value": 0,
+      "Attrs": []
+    },
+    {
+      "Name": "UCONFIG_NO_LEGACY_CONVERSION",
+      "Type": {
+        "Kind": "Native",
+        "Name": "UInt32"
+      },
+      "ValueType": "UInt32",
+      "Value": 1,
+      "Attrs": []
+    },
+    {
+      "Name": "UCONFIG_ONLY_HTML_CONVERSION",
+      "Type": {
+        "Kind": "Native",
+        "Name": "UInt32"
+      },
+      "ValueType": "UInt32",
+      "Value": 0,
+      "Attrs": []
+    },
+    {
+      "Name": "UCONFIG_NO_NORMALIZATION",
+      "Type": {
+        "Kind": "Native",
+        "Name": "UInt32"
+      },
+      "ValueType": "UInt32",
+      "Value": 0,
+      "Attrs": []
+    },
+    {
+      "Name": "UCONFIG_NO_COLLATION",
+      "Type": {
+        "Kind": "Native",
+        "Name": "UInt32"
+      },
+      "ValueType": "UInt32",
+      "Value": 1,
+      "Attrs": []
+    },
+    {
+      "Name": "UCONFIG_NO_SERVICE",
+      "Type": {
+        "Kind": "Native",
+        "Name": "UInt32"
+      },
+      "ValueType": "UInt32",
+      "Value": 0,
+      "Attrs": []
+    },
+    {
+      "Name": "UCONFIG_HAVE_PARSEALLINPUT",
+      "Type": {
+        "Kind": "Native",
+        "Name": "UInt32"
+      },
+      "ValueType": "UInt32",
+      "Value": 1,
+      "Attrs": []
+    },
+    {
+      "Name": "UCONFIG_NO_FILTERED_BREAK_ITERATION",
+      "Type": {
+        "Kind": "Native",
+        "Name": "UInt32"
+      },
+      "ValueType": "UInt32",
+      "Value": 0,
       "Attrs": []
     },
     {
@@ -5764,6 +5964,136 @@
       "Attrs": []
     },
     {
+      "Name": "U_PLATFORM",
+      "Type": {
+        "Kind": "Native",
+        "Name": "UInt32"
+      },
+      "ValueType": "UInt32",
+      "Value": 1800,
+      "Attrs": []
+    },
+    {
+      "Name": "U_PLATFORM_USES_ONLY_WIN32_API",
+      "Type": {
+        "Kind": "Native",
+        "Name": "UInt32"
+      },
+      "ValueType": "UInt32",
+      "Value": 1,
+      "Attrs": []
+    },
+    {
+      "Name": "U_PLATFORM_HAS_WIN32_API",
+      "Type": {
+        "Kind": "Native",
+        "Name": "UInt32"
+      },
+      "ValueType": "UInt32",
+      "Value": 1,
+      "Attrs": []
+    },
+    {
+      "Name": "U_PLATFORM_IMPLEMENTS_POSIX",
+      "Type": {
+        "Kind": "Native",
+        "Name": "UInt32"
+      },
+      "ValueType": "UInt32",
+      "Value": 0,
+      "Attrs": []
+    },
+    {
+      "Name": "U_PLATFORM_IS_LINUX_BASED",
+      "Type": {
+        "Kind": "Native",
+        "Name": "UInt32"
+      },
+      "ValueType": "UInt32",
+      "Value": 1,
+      "Attrs": []
+    },
+    {
+      "Name": "U_PLATFORM_IS_DARWIN_BASED",
+      "Type": {
+        "Kind": "Native",
+        "Name": "UInt32"
+      },
+      "ValueType": "UInt32",
+      "Value": 1,
+      "Attrs": []
+    },
+    {
+      "Name": "U_HAVE_STDINT_H",
+      "Type": {
+        "Kind": "Native",
+        "Name": "UInt32"
+      },
+      "ValueType": "UInt32",
+      "Value": 1,
+      "Attrs": []
+    },
+    {
+      "Name": "U_HAVE_INTTYPES_H",
+      "Type": {
+        "Kind": "Native",
+        "Name": "UInt32"
+      },
+      "ValueType": "UInt32",
+      "Value": 1,
+      "Attrs": []
+    },
+    {
+      "Name": "U_GCC_MAJOR_MINOR",
+      "Type": {
+        "Kind": "Native",
+        "Name": "UInt32"
+      },
+      "ValueType": "UInt32",
+      "Value": 0,
+      "Attrs": []
+    },
+    {
+      "Name": "U_IS_BIG_ENDIAN",
+      "Type": {
+        "Kind": "Native",
+        "Name": "UInt32"
+      },
+      "ValueType": "UInt32",
+      "Value": 0,
+      "Attrs": []
+    },
+    {
+      "Name": "U_HAVE_PLACEMENT_NEW",
+      "Type": {
+        "Kind": "Native",
+        "Name": "UInt32"
+      },
+      "ValueType": "UInt32",
+      "Value": 0,
+      "Attrs": []
+    },
+    {
+      "Name": "U_HAVE_DEBUG_LOCATION_NEW",
+      "Type": {
+        "Kind": "Native",
+        "Name": "UInt32"
+      },
+      "ValueType": "UInt32",
+      "Value": 1,
+      "Attrs": []
+    },
+    {
+      "Name": "U_CPLUSPLUS_VERSION",
+      "Type": {
+        "Kind": "Native",
+        "Name": "UInt32"
+      },
+      "ValueType": "UInt32",
+      "Value": 0,
+      "Attrs": []
+    },
+    {
       "Name": "U_ASCII_FAMILY",
       "Type": {
         "Kind": "Native",
@@ -5775,6 +6105,66 @@
     },
     {
       "Name": "U_EBCDIC_FAMILY",
+      "Type": {
+        "Kind": "Native",
+        "Name": "UInt32"
+      },
+      "ValueType": "UInt32",
+      "Value": 1,
+      "Attrs": []
+    },
+    {
+      "Name": "U_CHARSET_FAMILY",
+      "Type": {
+        "Kind": "Native",
+        "Name": "UInt32"
+      },
+      "ValueType": "UInt32",
+      "Value": 1,
+      "Attrs": []
+    },
+    {
+      "Name": "U_CHARSET_IS_UTF8",
+      "Type": {
+        "Kind": "Native",
+        "Name": "UInt32"
+      },
+      "ValueType": "UInt32",
+      "Value": 1,
+      "Attrs": []
+    },
+    {
+      "Name": "U_HAVE_WCHAR_H",
+      "Type": {
+        "Kind": "Native",
+        "Name": "UInt32"
+      },
+      "ValueType": "UInt32",
+      "Value": 0,
+      "Attrs": []
+    },
+    {
+      "Name": "U_SIZEOF_WCHAR_T",
+      "Type": {
+        "Kind": "Native",
+        "Name": "UInt32"
+      },
+      "ValueType": "UInt32",
+      "Value": 1,
+      "Attrs": []
+    },
+    {
+      "Name": "U_HAVE_WCSCPY",
+      "Type": {
+        "Kind": "Native",
+        "Name": "UInt32"
+      },
+      "ValueType": "UInt32",
+      "Value": 0,
+      "Attrs": []
+    },
+    {
+      "Name": "U_HAVE_CHAR16_T",
       "Type": {
         "Kind": "Native",
         "Name": "UInt32"
@@ -5804,6 +6194,16 @@
       "Attrs": []
     },
     {
+      "Name": "U_CHAR16_IS_TYPEDEF",
+      "Type": {
+        "Kind": "Native",
+        "Name": "UInt32"
+      },
+      "ValueType": "UInt32",
+      "Value": 1,
+      "Attrs": []
+    },
+    {
       "Name": "U_SENTINEL",
       "Type": {
         "Kind": "Native",
@@ -5811,6 +6211,26 @@
       },
       "ValueType": "Int32",
       "Value": -1,
+      "Attrs": []
+    },
+    {
+      "Name": "U8_LEAD3_T1_BITS",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": " 000000000000\u001000",
+      "Attrs": []
+    },
+    {
+      "Name": "U8_LEAD4_T1_BITS",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u001E\u000F\u000F\u000F\u0000\u0000\u0000\u0000",
       "Attrs": []
     },
     {
@@ -5831,6 +6251,16 @@
       },
       "ValueType": "UInt32",
       "Value": 2,
+      "Attrs": []
+    },
+    {
+      "Name": "U_HIDE_OBSOLETE_UTF_OLD_H",
+      "Type": {
+        "Kind": "Native",
+        "Name": "UInt32"
+      },
+      "ValueType": "UInt32",
+      "Value": 0,
       "Attrs": []
     },
     {
@@ -6494,6 +6924,216 @@
       "Attrs": []
     },
     {
+      "Name": "ULOC_CHINESE",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "zh",
+      "Attrs": []
+    },
+    {
+      "Name": "ULOC_ENGLISH",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "en",
+      "Attrs": []
+    },
+    {
+      "Name": "ULOC_FRENCH",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "fr",
+      "Attrs": []
+    },
+    {
+      "Name": "ULOC_GERMAN",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "de",
+      "Attrs": []
+    },
+    {
+      "Name": "ULOC_ITALIAN",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "it",
+      "Attrs": []
+    },
+    {
+      "Name": "ULOC_JAPANESE",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "ja",
+      "Attrs": []
+    },
+    {
+      "Name": "ULOC_KOREAN",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "ko",
+      "Attrs": []
+    },
+    {
+      "Name": "ULOC_SIMPLIFIED_CHINESE",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "zh_CN",
+      "Attrs": []
+    },
+    {
+      "Name": "ULOC_TRADITIONAL_CHINESE",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "zh_TW",
+      "Attrs": []
+    },
+    {
+      "Name": "ULOC_CANADA",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "en_CA",
+      "Attrs": []
+    },
+    {
+      "Name": "ULOC_CANADA_FRENCH",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "fr_CA",
+      "Attrs": []
+    },
+    {
+      "Name": "ULOC_CHINA",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "zh_CN",
+      "Attrs": []
+    },
+    {
+      "Name": "ULOC_PRC",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "zh_CN",
+      "Attrs": []
+    },
+    {
+      "Name": "ULOC_FRANCE",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "fr_FR",
+      "Attrs": []
+    },
+    {
+      "Name": "ULOC_GERMANY",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "de_DE",
+      "Attrs": []
+    },
+    {
+      "Name": "ULOC_ITALY",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "it_IT",
+      "Attrs": []
+    },
+    {
+      "Name": "ULOC_JAPAN",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "ja_JP",
+      "Attrs": []
+    },
+    {
+      "Name": "ULOC_KOREA",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "ko_KR",
+      "Attrs": []
+    },
+    {
+      "Name": "ULOC_TAIWAN",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "zh_TW",
+      "Attrs": []
+    },
+    {
+      "Name": "ULOC_UK",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "en_GB",
+      "Attrs": []
+    },
+    {
+      "Name": "ULOC_US",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "en_US",
+      "Attrs": []
+    },
+    {
       "Name": "ULOC_LANG_CAPACITY",
       "Type": {
         "Kind": "Native",
@@ -6584,6 +7224,86 @@
       "Attrs": []
     },
     {
+      "Name": "UCNV_SUB_STOP_ON_ILLEGAL",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "i",
+      "Attrs": []
+    },
+    {
+      "Name": "UCNV_SKIP_STOP_ON_ILLEGAL",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "i",
+      "Attrs": []
+    },
+    {
+      "Name": "UCNV_ESCAPE_JAVA",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "J",
+      "Attrs": []
+    },
+    {
+      "Name": "UCNV_ESCAPE_C",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "C",
+      "Attrs": []
+    },
+    {
+      "Name": "UCNV_ESCAPE_XML_DEC",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "D",
+      "Attrs": []
+    },
+    {
+      "Name": "UCNV_ESCAPE_XML_HEX",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "X",
+      "Attrs": []
+    },
+    {
+      "Name": "UCNV_ESCAPE_UNICODE",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "U",
+      "Attrs": []
+    },
+    {
+      "Name": "UCNV_ESCAPE_CSS2",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "S",
+      "Attrs": []
+    },
+    {
       "Name": "UCNV_MAX_CONVERTER_NAME_LENGTH",
       "Type": {
         "Kind": "Native",
@@ -6611,6 +7331,56 @@
       },
       "ValueType": "UInt32",
       "Value": 14,
+      "Attrs": []
+    },
+    {
+      "Name": "UCNV_OPTION_SEP_STRING",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": ",",
+      "Attrs": []
+    },
+    {
+      "Name": "UCNV_VALUE_SEP_STRING",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "=",
+      "Attrs": []
+    },
+    {
+      "Name": "UCNV_LOCALE_OPTION_STRING",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": ",locale=",
+      "Attrs": []
+    },
+    {
+      "Name": "UCNV_VERSION_OPTION_STRING",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": ",version=",
+      "Attrs": []
+    },
+    {
+      "Name": "UCNV_SWAP_LFNL_OPTION_STRING",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": ",swaplfnl",
       "Attrs": []
     },
     {
@@ -6874,6 +7644,446 @@
       "Attrs": []
     },
     {
+      "Name": "U_ICU_VERSION_BUNDLE",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "icuver",
+      "Attrs": []
+    },
+    {
+      "Name": "U_ICU_DATA_KEY",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "DataVersion",
+      "Attrs": []
+    },
+    {
+      "Name": "UCAL_UNKNOWN_ZONE_ID",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "Etc/Unknown",
+      "Attrs": []
+    },
+    {
+      "Name": "UDAT_YEAR",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "y",
+      "Attrs": []
+    },
+    {
+      "Name": "UDAT_QUARTER",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "QQQQ",
+      "Attrs": []
+    },
+    {
+      "Name": "UDAT_ABBR_QUARTER",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "QQQ",
+      "Attrs": []
+    },
+    {
+      "Name": "UDAT_YEAR_QUARTER",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "yQQQQ",
+      "Attrs": []
+    },
+    {
+      "Name": "UDAT_YEAR_ABBR_QUARTER",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "yQQQ",
+      "Attrs": []
+    },
+    {
+      "Name": "UDAT_MONTH",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "MMMM",
+      "Attrs": []
+    },
+    {
+      "Name": "UDAT_ABBR_MONTH",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "MMM",
+      "Attrs": []
+    },
+    {
+      "Name": "UDAT_NUM_MONTH",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "M",
+      "Attrs": []
+    },
+    {
+      "Name": "UDAT_YEAR_MONTH",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "yMMMM",
+      "Attrs": []
+    },
+    {
+      "Name": "UDAT_YEAR_ABBR_MONTH",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "yMMM",
+      "Attrs": []
+    },
+    {
+      "Name": "UDAT_YEAR_NUM_MONTH",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "yM",
+      "Attrs": []
+    },
+    {
+      "Name": "UDAT_DAY",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "d",
+      "Attrs": []
+    },
+    {
+      "Name": "UDAT_YEAR_MONTH_DAY",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "yMMMMd",
+      "Attrs": []
+    },
+    {
+      "Name": "UDAT_YEAR_ABBR_MONTH_DAY",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "yMMMd",
+      "Attrs": []
+    },
+    {
+      "Name": "UDAT_YEAR_NUM_MONTH_DAY",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "yMd",
+      "Attrs": []
+    },
+    {
+      "Name": "UDAT_WEEKDAY",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "EEEE",
+      "Attrs": []
+    },
+    {
+      "Name": "UDAT_ABBR_WEEKDAY",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "E",
+      "Attrs": []
+    },
+    {
+      "Name": "UDAT_YEAR_MONTH_WEEKDAY_DAY",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "yMMMMEEEEd",
+      "Attrs": []
+    },
+    {
+      "Name": "UDAT_YEAR_ABBR_MONTH_WEEKDAY_DAY",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "yMMMEd",
+      "Attrs": []
+    },
+    {
+      "Name": "UDAT_YEAR_NUM_MONTH_WEEKDAY_DAY",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "yMEd",
+      "Attrs": []
+    },
+    {
+      "Name": "UDAT_MONTH_DAY",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "MMMMd",
+      "Attrs": []
+    },
+    {
+      "Name": "UDAT_ABBR_MONTH_DAY",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "MMMd",
+      "Attrs": []
+    },
+    {
+      "Name": "UDAT_NUM_MONTH_DAY",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "Md",
+      "Attrs": []
+    },
+    {
+      "Name": "UDAT_MONTH_WEEKDAY_DAY",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "MMMMEEEEd",
+      "Attrs": []
+    },
+    {
+      "Name": "UDAT_ABBR_MONTH_WEEKDAY_DAY",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "MMMEd",
+      "Attrs": []
+    },
+    {
+      "Name": "UDAT_NUM_MONTH_WEEKDAY_DAY",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "MEd",
+      "Attrs": []
+    },
+    {
+      "Name": "UDAT_HOUR",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "j",
+      "Attrs": []
+    },
+    {
+      "Name": "UDAT_HOUR24",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "H",
+      "Attrs": []
+    },
+    {
+      "Name": "UDAT_MINUTE",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "m",
+      "Attrs": []
+    },
+    {
+      "Name": "UDAT_HOUR_MINUTE",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "jm",
+      "Attrs": []
+    },
+    {
+      "Name": "UDAT_HOUR24_MINUTE",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "Hm",
+      "Attrs": []
+    },
+    {
+      "Name": "UDAT_SECOND",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "s",
+      "Attrs": []
+    },
+    {
+      "Name": "UDAT_HOUR_MINUTE_SECOND",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "jms",
+      "Attrs": []
+    },
+    {
+      "Name": "UDAT_HOUR24_MINUTE_SECOND",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "Hms",
+      "Attrs": []
+    },
+    {
+      "Name": "UDAT_MINUTE_SECOND",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "ms",
+      "Attrs": []
+    },
+    {
+      "Name": "UDAT_LOCATION_TZ",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "VVVV",
+      "Attrs": []
+    },
+    {
+      "Name": "UDAT_GENERIC_TZ",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "vvvv",
+      "Attrs": []
+    },
+    {
+      "Name": "UDAT_ABBR_GENERIC_TZ",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "v",
+      "Attrs": []
+    },
+    {
+      "Name": "UDAT_SPECIFIC_TZ",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "zzzz",
+      "Attrs": []
+    },
+    {
+      "Name": "UDAT_ABBR_SPECIFIC_TZ",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "z",
+      "Attrs": []
+    },
+    {
+      "Name": "UDAT_ABBR_UTC_TZ",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "ZZZZ",
+      "Attrs": []
+    },
+    {
       "Name": "USEARCH_DONE",
       "Type": {
         "Kind": "Native",
@@ -6894,6 +8104,26 @@
       "Attrs": []
     },
     {
+      "Name": "UCONFIG_FORMAT_FASTPATHS_49",
+      "Type": {
+        "Kind": "Native",
+        "Name": "UInt32"
+      },
+      "ValueType": "UInt32",
+      "Value": 1,
+      "Attrs": []
+    },
+    {
+      "Name": "U_PLATFORM_HAS_WINUWP_API",
+      "Type": {
+        "Kind": "Native",
+        "Name": "UInt32"
+      },
+      "ValueType": "UInt32",
+      "Value": 0,
+      "Attrs": []
+    },
+    {
       "Name": "U_IOSTREAM_SOURCE",
       "Type": {
         "Kind": "Native",
@@ -6901,6 +8131,46 @@
       },
       "ValueType": "UInt32",
       "Value": 199711,
+      "Attrs": []
+    },
+    {
+      "Name": "U_HAVE_RVALUE_REFERENCES",
+      "Type": {
+        "Kind": "Native",
+        "Name": "UInt32"
+      },
+      "ValueType": "UInt32",
+      "Value": 1,
+      "Attrs": []
+    },
+    {
+      "Name": "U_USING_ICU_NAMESPACE",
+      "Type": {
+        "Kind": "Native",
+        "Name": "UInt32"
+      },
+      "ValueType": "UInt32",
+      "Value": 1,
+      "Attrs": []
+    },
+    {
+      "Name": "U_ICUDATA_TYPE_LETTER",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "e",
+      "Attrs": []
+    },
+    {
+      "Name": "U_UNICODE_VERSION",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "8.0",
       "Attrs": []
     },
     {
@@ -12042,9 +13312,7 @@
           "ReturnAttrs": [],
           "Architectures": [],
           "Platform": null,
-          "Attrs": [
-            "SpecialName"
-          ],
+          "Attrs": [],
           "Params": [
             {
               "Name": "handler",
@@ -12088,9 +13356,7 @@
           "ReturnAttrs": [],
           "Architectures": [],
           "Platform": null,
-          "Attrs": [
-            "SpecialName"
-          ],
+          "Attrs": [],
           "Params": [
             {
               "Name": "eventCookie",
@@ -47703,8 +48969,7 @@
             "Parents": []
           },
           "Attrs": [
-            "In",
-            "Out"
+            "In"
           ]
         },
         {
@@ -47717,8 +48982,7 @@
             "Parents": []
           },
           "Attrs": [
-            "In",
-            "Out"
+            "In"
           ]
         },
         {
@@ -47731,8 +48995,7 @@
             "Parents": []
           },
           "Attrs": [
-            "In",
-            "Out"
+            "In"
           ]
         }
       ]
@@ -65945,8 +67208,7 @@
             "Parents": []
           },
           "Attrs": [
-            "In",
-            "Out"
+            "In"
           ]
         },
         {
@@ -103284,8 +104546,7 @@
             "Parents": []
           },
           "Attrs": [
-            "In",
-            "Out"
+            "In"
           ]
         },
         {
@@ -103444,8 +104705,7 @@
             "Parents": []
           },
           "Attrs": [
-            "In",
-            "Out"
+            "In"
           ]
         },
         {

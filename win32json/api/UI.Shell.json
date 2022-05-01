@@ -1707,6 +1707,16 @@
       "Attrs": []
     },
     {
+      "Name": "STR_MYDOCS_CLSID",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "{450D8FBA-AD25-11D0-98A8-0800361B1103}",
+      "Attrs": []
+    },
+    {
       "Name": "CATID_BrowsableShellExt",
       "Type": {
         "Kind": "Native",
@@ -4124,6 +4134,16 @@
       },
       "ValueType": "UInt32",
       "Value": 1,
+      "Attrs": []
+    },
+    {
+      "Name": "PROPSTR_EXTENSIONCOMPLETIONSTATE",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "ExtensionCompletionState",
       "Attrs": []
     },
     {
@@ -6587,6 +6607,26 @@
       "Attrs": []
     },
     {
+      "Name": "STR_PARSE_WITH_PROPERTIES",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "ParseWithProperties",
+      "Attrs": []
+    },
+    {
+      "Name": "STR_PARSE_PARTIAL_IDLIST",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "ParseOriginalItem",
+      "Attrs": []
+    },
+    {
       "Name": "PROGDLG_NORMAL",
       "Type": {
         "Kind": "Native",
@@ -7157,6 +7197,336 @@
       "Attrs": []
     },
     {
+      "Name": "CFSTR_SHELLIDLIST",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "Shell IDList Array",
+      "Attrs": []
+    },
+    {
+      "Name": "CFSTR_SHELLIDLISTOFFSET",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "Shell Object Offsets",
+      "Attrs": []
+    },
+    {
+      "Name": "CFSTR_NETRESOURCES",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "Net Resource",
+      "Attrs": []
+    },
+    {
+      "Name": "CFSTR_FILEDESCRIPTORA",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "FileGroupDescriptor",
+      "Attrs": []
+    },
+    {
+      "Name": "CFSTR_FILEDESCRIPTORW",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "FileGroupDescriptorW",
+      "Attrs": []
+    },
+    {
+      "Name": "CFSTR_FILECONTENTS",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "FileContents",
+      "Attrs": []
+    },
+    {
+      "Name": "CFSTR_FILENAMEA",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "FileName",
+      "Attrs": []
+    },
+    {
+      "Name": "CFSTR_FILENAMEW",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "FileNameW",
+      "Attrs": []
+    },
+    {
+      "Name": "CFSTR_PRINTERGROUP",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "PrinterFriendlyName",
+      "Attrs": []
+    },
+    {
+      "Name": "CFSTR_FILENAMEMAPA",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "FileNameMap",
+      "Attrs": []
+    },
+    {
+      "Name": "CFSTR_FILENAMEMAPW",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "FileNameMapW",
+      "Attrs": []
+    },
+    {
+      "Name": "CFSTR_SHELLURL",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "UniformResourceLocator",
+      "Attrs": []
+    },
+    {
+      "Name": "CFSTR_INETURLA",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "UniformResourceLocator",
+      "Attrs": []
+    },
+    {
+      "Name": "CFSTR_INETURLW",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "UniformResourceLocatorW",
+      "Attrs": []
+    },
+    {
+      "Name": "CFSTR_PREFERREDDROPEFFECT",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "Preferred DropEffect",
+      "Attrs": []
+    },
+    {
+      "Name": "CFSTR_PERFORMEDDROPEFFECT",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "Performed DropEffect",
+      "Attrs": []
+    },
+    {
+      "Name": "CFSTR_PASTESUCCEEDED",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "Paste Succeeded",
+      "Attrs": []
+    },
+    {
+      "Name": "CFSTR_INDRAGLOOP",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "InShellDragLoop",
+      "Attrs": []
+    },
+    {
+      "Name": "CFSTR_MOUNTEDVOLUME",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "MountedVolume",
+      "Attrs": []
+    },
+    {
+      "Name": "CFSTR_PERSISTEDDATAOBJECT",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "PersistedDataObject",
+      "Attrs": []
+    },
+    {
+      "Name": "CFSTR_TARGETCLSID",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "TargetCLSID",
+      "Attrs": []
+    },
+    {
+      "Name": "CFSTR_LOGICALPERFORMEDDROPEFFECT",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "Logical Performed DropEffect",
+      "Attrs": []
+    },
+    {
+      "Name": "CFSTR_AUTOPLAY_SHELLIDLISTS",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "Autoplay Enumerated IDList Array",
+      "Attrs": []
+    },
+    {
+      "Name": "CFSTR_UNTRUSTEDDRAGDROP",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "UntrustedDragDrop",
+      "Attrs": []
+    },
+    {
+      "Name": "CFSTR_FILE_ATTRIBUTES_ARRAY",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "File Attributes Array",
+      "Attrs": []
+    },
+    {
+      "Name": "CFSTR_INVOKECOMMAND_DROPPARAM",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "InvokeCommand DropParam",
+      "Attrs": []
+    },
+    {
+      "Name": "CFSTR_SHELLDROPHANDLER",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "DropHandlerCLSID",
+      "Attrs": []
+    },
+    {
+      "Name": "CFSTR_DROPDESCRIPTION",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "DropDescription",
+      "Attrs": []
+    },
+    {
+      "Name": "CFSTR_ZONEIDENTIFIER",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "ZoneIdentifier",
+      "Attrs": []
+    },
+    {
+      "Name": "CFSTR_FILEDESCRIPTOR",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "FileGroupDescriptorW",
+      "Attrs": []
+    },
+    {
+      "Name": "CFSTR_FILENAME",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "FileNameW",
+      "Attrs": []
+    },
+    {
+      "Name": "CFSTR_FILENAMEMAP",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "FileNameMapW",
+      "Attrs": []
+    },
+    {
+      "Name": "CFSTR_INETURL",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "UniformResourceLocatorW",
+      "Attrs": []
+    },
+    {
       "Name": "DVASPECT_SHORTNAME",
       "Type": {
         "Kind": "Native",
@@ -7704,6 +8074,96 @@
       },
       "ValueType": "UInt32",
       "Value": 6,
+      "Attrs": []
+    },
+    {
+      "Name": "CMDSTR_NEWFOLDERA",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "NewFolder",
+      "Attrs": []
+    },
+    {
+      "Name": "CMDSTR_VIEWLISTA",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "ViewList",
+      "Attrs": []
+    },
+    {
+      "Name": "CMDSTR_VIEWDETAILSA",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "ViewDetails",
+      "Attrs": []
+    },
+    {
+      "Name": "CMDSTR_NEWFOLDERW",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "NewFolder",
+      "Attrs": []
+    },
+    {
+      "Name": "CMDSTR_VIEWLISTW",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "ViewList",
+      "Attrs": []
+    },
+    {
+      "Name": "CMDSTR_VIEWDETAILSW",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "ViewDetails",
+      "Attrs": []
+    },
+    {
+      "Name": "CMDSTR_NEWFOLDER",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "NewFolder",
+      "Attrs": []
+    },
+    {
+      "Name": "CMDSTR_VIEWLIST",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "ViewList",
+      "Attrs": []
+    },
+    {
+      "Name": "CMDSTR_VIEWDETAILS",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "ViewDetails",
       "Attrs": []
     },
     {
@@ -8257,6 +8717,196 @@
       "Attrs": []
     },
     {
+      "Name": "CONFLICT_RESOLUTION_CLSID_KEY",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "ConflictResolutionCLSID",
+      "Attrs": []
+    },
+    {
+      "Name": "STR_BIND_FORCE_FOLDER_SHORTCUT_RESOLVE",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "Force Folder Shortcut Resolve",
+      "Attrs": []
+    },
+    {
+      "Name": "STR_AVOID_DRIVE_RESTRICTION_POLICY",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "Avoid Drive Restriction Policy",
+      "Attrs": []
+    },
+    {
+      "Name": "STR_SKIP_BINDING_CLSID",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "Skip Binding CLSID",
+      "Attrs": []
+    },
+    {
+      "Name": "STR_PARSE_PREFER_FOLDER_BROWSING",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "Parse Prefer Folder Browsing",
+      "Attrs": []
+    },
+    {
+      "Name": "STR_DONT_PARSE_RELATIVE",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "Don't Parse Relative",
+      "Attrs": []
+    },
+    {
+      "Name": "STR_PARSE_TRANSLATE_ALIASES",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "Parse Translate Aliases",
+      "Attrs": []
+    },
+    {
+      "Name": "STR_PARSE_SKIP_NET_CACHE",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "Skip Net Resource Cache",
+      "Attrs": []
+    },
+    {
+      "Name": "STR_PARSE_SHELL_PROTOCOL_TO_FILE_OBJECTS",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "Parse Shell Protocol To File Objects",
+      "Attrs": []
+    },
+    {
+      "Name": "STR_TRACK_CLSID",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "Track the CLSID",
+      "Attrs": []
+    },
+    {
+      "Name": "STR_INTERNAL_NAVIGATE",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "Internal Navigation",
+      "Attrs": []
+    },
+    {
+      "Name": "STR_PARSE_PROPERTYSTORE",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "DelegateNamedProperties",
+      "Attrs": []
+    },
+    {
+      "Name": "STR_NO_VALIDATE_FILENAME_CHARS",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "NoValidateFilenameChars",
+      "Attrs": []
+    },
+    {
+      "Name": "STR_BIND_DELEGATE_CREATE_OBJECT",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "Delegate Object Creation",
+      "Attrs": []
+    },
+    {
+      "Name": "STR_PARSE_ALLOW_INTERNET_SHELL_FOLDERS",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "Allow binding to Internet shell folder handlers and negate STR_PARSE_PREFER_WEB_BROWSING",
+      "Attrs": []
+    },
+    {
+      "Name": "STR_PARSE_PREFER_WEB_BROWSING",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "Do not bind to Internet shell folder handlers",
+      "Attrs": []
+    },
+    {
+      "Name": "STR_PARSE_SHOW_NET_DIAGNOSTICS_UI",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "Show network diagnostics UI",
+      "Attrs": []
+    },
+    {
+      "Name": "STR_PARSE_DONT_REQUIRE_VALIDATED_URLS",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "Do not require validated URLs",
+      "Attrs": []
+    },
+    {
+      "Name": "STR_INTERNETFOLDER_PARSE_ONLY_URLMON_BINDABLE",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "Validate URL",
+      "Attrs": []
+    },
+    {
       "Name": "BIND_INTERRUPTABLE",
       "Type": {
         "Kind": "Native",
@@ -8264,6 +8914,106 @@
       },
       "ValueType": "UInt32",
       "Value": 4294967295,
+      "Attrs": []
+    },
+    {
+      "Name": "STR_BIND_FOLDERS_READ_ONLY",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "Folders As Read Only",
+      "Attrs": []
+    },
+    {
+      "Name": "STR_BIND_FOLDER_ENUM_MODE",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "Folder Enum Mode",
+      "Attrs": []
+    },
+    {
+      "Name": "STR_PARSE_WITH_EXPLICIT_PROGID",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "ExplicitProgid",
+      "Attrs": []
+    },
+    {
+      "Name": "STR_PARSE_WITH_EXPLICIT_ASSOCAPP",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "ExplicitAssociationApp",
+      "Attrs": []
+    },
+    {
+      "Name": "STR_PARSE_EXPLICIT_ASSOCIATION_SUCCESSFUL",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "ExplicitAssociationSuccessful",
+      "Attrs": []
+    },
+    {
+      "Name": "STR_PARSE_AND_CREATE_ITEM",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "ParseAndCreateItem",
+      "Attrs": []
+    },
+    {
+      "Name": "STR_PROPERTYBAG_PARAM",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "SHBindCtxPropertyBag",
+      "Attrs": []
+    },
+    {
+      "Name": "STR_ENUM_ITEMS_FLAGS",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "SHCONTF",
+      "Attrs": []
+    },
+    {
+      "Name": "STR_STORAGEITEM_CREATION_FLAGS",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "SHGETSTORAGEITEM",
+      "Attrs": []
+    },
+    {
+      "Name": "STR_ITEM_CACHE_CONTEXT",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "ItemCacheContext",
       "Attrs": []
     },
     {
@@ -8764,6 +9514,96 @@
       },
       "ValueType": "UInt32",
       "Value": 4,
+      "Attrs": []
+    },
+    {
+      "Name": "STR_DONT_RESOLVE_LINK",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "Don't Resolve Link",
+      "Attrs": []
+    },
+    {
+      "Name": "STR_GET_ASYNC_HANDLER",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "GetAsyncHandler",
+      "Attrs": []
+    },
+    {
+      "Name": "STR_GPS_HANDLERPROPERTIESONLY",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "GPS_HANDLERPROPERTIESONLY",
+      "Attrs": []
+    },
+    {
+      "Name": "STR_GPS_FASTPROPERTIESONLY",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "GPS_FASTPROPERTIESONLY",
+      "Attrs": []
+    },
+    {
+      "Name": "STR_GPS_OPENSLOWITEM",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "GPS_OPENSLOWITEM",
+      "Attrs": []
+    },
+    {
+      "Name": "STR_GPS_DELAYCREATION",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "GPS_DELAYCREATION",
+      "Attrs": []
+    },
+    {
+      "Name": "STR_GPS_BESTEFFORT",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "GPS_BESTEFFORT",
+      "Attrs": []
+    },
+    {
+      "Name": "STR_GPS_NO_OPLOCK",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "GPS_NO_OPLOCK",
+      "Attrs": []
+    },
+    {
+      "Name": "DI_GETDRAGIMAGE",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "ShellGetDragImage",
       "Attrs": []
     },
     {
@@ -10279,6 +11119,56 @@
       "Attrs": []
     },
     {
+      "Name": "STR_FILE_SYS_BIND_DATA",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "File System Bind Data",
+      "Attrs": []
+    },
+    {
+      "Name": "STR_FILE_SYS_BIND_DATA_WIN7_FORMAT",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "Win7FileSystemIdList",
+      "Attrs": []
+    },
+    {
+      "Name": "HOMEGROUP_SECURITY_GROUP_MULTI",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "HUG",
+      "Attrs": []
+    },
+    {
+      "Name": "HOMEGROUP_SECURITY_GROUP",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "HomeUsers",
+      "Attrs": []
+    },
+    {
+      "Name": "PROP_CONTRACT_DELEGATE",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "ContractDelegate",
+      "Attrs": []
+    },
+    {
       "Name": "SID_URLExecutionContext",
       "Type": {
         "Kind": "Native",
@@ -10286,6 +11176,26 @@
       },
       "ValueType": "String",
       "Value": "fb5f8ebc-bbb6-4d10-a461-777291a09030",
+      "Attrs": []
+    },
+    {
+      "Name": "STR_TAB_REUSE_IDENTIFIER",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "Tab Reuse Identifier",
+      "Attrs": []
+    },
+    {
+      "Name": "STR_REFERRER_IDENTIFIER",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "Referrer Identifier",
       "Attrs": []
     },
     {
@@ -11639,6 +12549,16 @@
       "Attrs": []
     },
     {
+      "Name": "WC_NETADDRESS",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "msctls_netaddress",
+      "Attrs": []
+    },
+    {
       "Name": "NCM_GETADDRESS",
       "Type": {
         "Kind": "Native",
@@ -11746,6 +12666,66 @@
       },
       "ValueType": "Int32",
       "Value": 1,
+      "Attrs": []
+    },
+    {
+      "Name": "SZ_CONTENTTYPE_HTMLA",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "text/html",
+      "Attrs": []
+    },
+    {
+      "Name": "SZ_CONTENTTYPE_HTMLW",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "text/html",
+      "Attrs": []
+    },
+    {
+      "Name": "SZ_CONTENTTYPE_CDFA",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "application/x-cdf",
+      "Attrs": []
+    },
+    {
+      "Name": "SZ_CONTENTTYPE_CDFW",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "application/x-cdf",
+      "Attrs": []
+    },
+    {
+      "Name": "SZ_CONTENTTYPE_HTML",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "text/html",
+      "Attrs": []
+    },
+    {
+      "Name": "SZ_CONTENTTYPE_CDF",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "application/x-cdf",
       "Attrs": []
     },
     {
@@ -12933,6 +13913,26 @@
       "Attrs": []
     },
     {
+      "Name": "SHIMGKEY_QUALITY",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "Compression",
+      "Attrs": []
+    },
+    {
+      "Name": "SHIMGKEY_RAWFORMAT",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "RawDataFormat",
+      "Attrs": []
+    },
+    {
       "Name": "SHIMGDEC_DEFAULT",
       "Type": {
         "Kind": "Native",
@@ -13614,6 +14614,16 @@
       "Attrs": []
     },
     {
+      "Name": "VOLUME_PREFIX",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "\\\\?\\Volume",
+      "Attrs": []
+    },
+    {
       "Name": "PATHCCH_MAX_CCH",
       "Type": {
         "Kind": "Native",
@@ -13651,6 +14661,116 @@
       },
       "ValueType": "UInt32",
       "Value": 2003,
+      "Attrs": []
+    },
+    {
+      "Name": "idsIsPassword",
+      "Type": {
+        "Kind": "Native",
+        "Name": "UInt32"
+      },
+      "ValueType": "UInt32",
+      "Value": 1000,
+      "Attrs": []
+    },
+    {
+      "Name": "idsIniFile",
+      "Type": {
+        "Kind": "Native",
+        "Name": "UInt32"
+      },
+      "ValueType": "UInt32",
+      "Value": 1001,
+      "Attrs": []
+    },
+    {
+      "Name": "idsScreenSaver",
+      "Type": {
+        "Kind": "Native",
+        "Name": "UInt32"
+      },
+      "ValueType": "UInt32",
+      "Value": 1002,
+      "Attrs": []
+    },
+    {
+      "Name": "idsPassword",
+      "Type": {
+        "Kind": "Native",
+        "Name": "UInt32"
+      },
+      "ValueType": "UInt32",
+      "Value": 1003,
+      "Attrs": []
+    },
+    {
+      "Name": "idsDifferentPW",
+      "Type": {
+        "Kind": "Native",
+        "Name": "UInt32"
+      },
+      "ValueType": "UInt32",
+      "Value": 1004,
+      "Attrs": []
+    },
+    {
+      "Name": "idsChangePW",
+      "Type": {
+        "Kind": "Native",
+        "Name": "UInt32"
+      },
+      "ValueType": "UInt32",
+      "Value": 1005,
+      "Attrs": []
+    },
+    {
+      "Name": "idsBadOldPW",
+      "Type": {
+        "Kind": "Native",
+        "Name": "UInt32"
+      },
+      "ValueType": "UInt32",
+      "Value": 1006,
+      "Attrs": []
+    },
+    {
+      "Name": "idsAppName",
+      "Type": {
+        "Kind": "Native",
+        "Name": "UInt32"
+      },
+      "ValueType": "UInt32",
+      "Value": 1007,
+      "Attrs": []
+    },
+    {
+      "Name": "idsNoHelpMemory",
+      "Type": {
+        "Kind": "Native",
+        "Name": "UInt32"
+      },
+      "ValueType": "UInt32",
+      "Value": 1008,
+      "Attrs": []
+    },
+    {
+      "Name": "idsHelpFile",
+      "Type": {
+        "Kind": "Native",
+        "Name": "UInt32"
+      },
+      "ValueType": "UInt32",
+      "Value": 1009,
+      "Attrs": []
+    },
+    {
+      "Name": "idsDefKeyword",
+      "Type": {
+        "Kind": "Native",
+        "Name": "UInt32"
+      },
+      "ValueType": "UInt32",
+      "Value": 1010,
       "Attrs": []
     },
     {
@@ -43804,7 +44924,7 @@
       ]
     },
     {
-      "Name": "_FILEOPENDIALOGOPTIONS",
+      "Name": "FILEOPENDIALOGOPTIONS",
       "Architectures": [],
       "Platform": null,
       "Kind": "Enum",
@@ -43901,10 +45021,10 @@
         },
         {
           "Name": "FOS_SUPPORTSTREAMABLEITEMS",
-          "Value": -2147483648
+          "Value": 2147483648
         }
       ],
-      "IntegerBase": "Int32"
+      "IntegerBase": "UInt32"
     },
     {
       "Name": "IFileDialog",
@@ -44112,8 +45232,11 @@
             {
               "Name": "fos",
               "Type": {
-                "Kind": "Native",
-                "Name": "UInt32"
+                "Kind": "ApiRef",
+                "Name": "FILEOPENDIALOGOPTIONS",
+                "TargetKind": "Default",
+                "Api": "UI.Shell",
+                "Parents": []
               },
               "Attrs": [
                 "In"
@@ -44141,8 +45264,11 @@
               "Type": {
                 "Kind": "PointerTo",
                 "Child": {
-                  "Kind": "Native",
-                  "Name": "UInt32"
+                  "Kind": "ApiRef",
+                  "Name": "FILEOPENDIALOGOPTIONS",
+                  "TargetKind": "Default",
+                  "Api": "UI.Shell",
+                  "Parents": []
                 }
               },
               "Attrs": [
@@ -82688,9 +83814,7 @@
           "ReturnAttrs": [],
           "Architectures": [],
           "Platform": null,
-          "Attrs": [
-            "SpecialName"
-          ],
+          "Attrs": [],
           "Params": [
             {
               "Name": "bstrPropertyName",
@@ -82736,9 +83860,7 @@
           "ReturnAttrs": [],
           "Architectures": [],
           "Platform": null,
-          "Attrs": [
-            "SpecialName"
-          ],
+          "Attrs": [],
           "Params": [
             {
               "Name": "bstrPropertyName",
@@ -105286,8 +106408,7 @@
                 }
               },
               "Attrs": [
-                "Out",
-                "Optional"
+                "Out"
               ]
             }
           ]
@@ -105320,8 +106441,7 @@
                 }
               },
               "Attrs": [
-                "Out",
-                "Optional"
+                "Out"
               ]
             }
           ]
@@ -105453,8 +106573,7 @@
                 }
               },
               "Attrs": [
-                "Out",
-                "Optional"
+                "Out"
               ]
             }
           ]
@@ -105487,8 +106606,7 @@
                 }
               },
               "Attrs": [
-                "Out",
-                "Optional"
+                "Out"
               ]
             }
           ]
@@ -105521,8 +106639,7 @@
                 }
               },
               "Attrs": [
-                "Out",
-                "Optional"
+                "Out"
               ]
             }
           ]
@@ -105555,8 +106672,7 @@
                 }
               },
               "Attrs": [
-                "Out",
-                "Optional"
+                "Out"
               ]
             }
           ]
@@ -105589,8 +106705,7 @@
                 }
               },
               "Attrs": [
-                "Out",
-                "Optional"
+                "Out"
               ]
             }
           ]
@@ -108379,8 +109494,7 @@
                 }
               },
               "Attrs": [
-                "Out",
-                "Optional"
+                "Out"
               ]
             }
           ]
@@ -108427,8 +109541,7 @@
                 }
               },
               "Attrs": [
-                "Out",
-                "Optional"
+                "Out"
               ]
             }
           ]
@@ -108475,8 +109588,7 @@
                 }
               },
               "Attrs": [
-                "Out",
-                "Optional"
+                "Out"
               ]
             }
           ]
@@ -115511,8 +116623,7 @@
                 }
               },
               "Attrs": [
-                "Out",
-                "Optional"
+                "Out"
               ]
             }
           ]
@@ -115822,8 +116933,7 @@
                 }
               },
               "Attrs": [
-                "Out",
-                "Optional"
+                "Out"
               ]
             }
           ]
@@ -116017,8 +117127,7 @@
                 }
               },
               "Attrs": [
-                "Out",
-                "Optional"
+                "Out"
               ]
             }
           ]
@@ -116934,8 +118043,7 @@
                 }
               },
               "Attrs": [
-                "Out",
-                "Optional"
+                "Out"
               ]
             }
           ]
@@ -126009,7 +127117,8 @@
             }
           },
           "Attrs": [
-            "Out"
+            "Out",
+            "ComOutPtr"
           ]
         }
       ]
@@ -131669,7 +132778,8 @@
             }
           },
           "Attrs": [
-            "Out"
+            "Out",
+            "ComOutPtr"
           ]
         }
       ]
@@ -151441,7 +152551,7 @@
       "DllImport": "SHLWAPI",
       "ReturnType": {
         "Kind": "ApiRef",
-        "Name": "LSTATUS",
+        "Name": "WIN32_ERROR",
         "TargetKind": "Default",
         "Api": "Foundation",
         "Parents": []
@@ -151487,7 +152597,7 @@
       "DllImport": "SHLWAPI",
       "ReturnType": {
         "Kind": "ApiRef",
-        "Name": "LSTATUS",
+        "Name": "WIN32_ERROR",
         "TargetKind": "Default",
         "Api": "Foundation",
         "Parents": []
@@ -151533,7 +152643,7 @@
       "DllImport": "SHLWAPI",
       "ReturnType": {
         "Kind": "ApiRef",
-        "Name": "LSTATUS",
+        "Name": "WIN32_ERROR",
         "TargetKind": "Default",
         "Api": "Foundation",
         "Parents": []
@@ -151579,7 +152689,7 @@
       "DllImport": "SHLWAPI",
       "ReturnType": {
         "Kind": "ApiRef",
-        "Name": "LSTATUS",
+        "Name": "WIN32_ERROR",
         "TargetKind": "Default",
         "Api": "Foundation",
         "Parents": []
@@ -151625,9 +152735,9 @@
       "DllImport": "SHLWAPI",
       "ReturnType": {
         "Kind": "ApiRef",
-        "Name": "HKEY",
+        "Name": "WIN32_ERROR",
         "TargetKind": "Default",
-        "Api": "System.Registry",
+        "Api": "Foundation",
         "Parents": []
       },
       "ReturnAttrs": [],
@@ -151656,7 +152766,7 @@
       "DllImport": "SHLWAPI",
       "ReturnType": {
         "Kind": "ApiRef",
-        "Name": "LSTATUS",
+        "Name": "WIN32_ERROR",
         "TargetKind": "Default",
         "Api": "Foundation",
         "Parents": []
@@ -151716,7 +152826,7 @@
       "DllImport": "SHLWAPI",
       "ReturnType": {
         "Kind": "ApiRef",
-        "Name": "LSTATUS",
+        "Name": "WIN32_ERROR",
         "TargetKind": "Default",
         "Api": "Foundation",
         "Parents": []
@@ -151776,7 +152886,7 @@
       "DllImport": "SHLWAPI",
       "ReturnType": {
         "Kind": "ApiRef",
-        "Name": "LSTATUS",
+        "Name": "WIN32_ERROR",
         "TargetKind": "Default",
         "Api": "Foundation",
         "Parents": []
@@ -151884,7 +152994,7 @@
       "DllImport": "SHLWAPI",
       "ReturnType": {
         "Kind": "ApiRef",
-        "Name": "LSTATUS",
+        "Name": "WIN32_ERROR",
         "TargetKind": "Default",
         "Api": "Foundation",
         "Parents": []
@@ -151991,11 +153101,8 @@
       "SetLastError": false,
       "DllImport": "SHLWAPI",
       "ReturnType": {
-        "Kind": "ApiRef",
-        "Name": "LSTATUS",
-        "TargetKind": "Default",
-        "Api": "Foundation",
-        "Parents": []
+        "Kind": "Native",
+        "Name": "Int32"
       },
       "ReturnAttrs": [],
       "Architectures": [],
@@ -152091,11 +153198,8 @@
       "SetLastError": false,
       "DllImport": "SHLWAPI",
       "ReturnType": {
-        "Kind": "ApiRef",
-        "Name": "LSTATUS",
-        "TargetKind": "Default",
-        "Api": "Foundation",
-        "Parents": []
+        "Kind": "Native",
+        "Name": "Int32"
       },
       "ReturnAttrs": [],
       "Architectures": [],
@@ -152192,7 +153296,7 @@
       "DllImport": "SHLWAPI",
       "ReturnType": {
         "Kind": "ApiRef",
-        "Name": "LSTATUS",
+        "Name": "WIN32_ERROR",
         "TargetKind": "Default",
         "Api": "Foundation",
         "Parents": []
@@ -152310,7 +153414,7 @@
       "DllImport": "SHLWAPI",
       "ReturnType": {
         "Kind": "ApiRef",
-        "Name": "LSTATUS",
+        "Name": "WIN32_ERROR",
         "TargetKind": "Default",
         "Api": "Foundation",
         "Parents": []
@@ -152428,7 +153532,7 @@
       "DllImport": "SHLWAPI",
       "ReturnType": {
         "Kind": "ApiRef",
-        "Name": "LSTATUS",
+        "Name": "WIN32_ERROR",
         "TargetKind": "Default",
         "Api": "Foundation",
         "Parents": []
@@ -152532,7 +153636,7 @@
       "DllImport": "SHLWAPI",
       "ReturnType": {
         "Kind": "ApiRef",
-        "Name": "LSTATUS",
+        "Name": "WIN32_ERROR",
         "TargetKind": "Default",
         "Api": "Foundation",
         "Parents": []
@@ -152640,7 +153744,7 @@
       "DllImport": "SHLWAPI",
       "ReturnType": {
         "Kind": "ApiRef",
-        "Name": "LSTATUS",
+        "Name": "WIN32_ERROR",
         "TargetKind": "Default",
         "Api": "Foundation",
         "Parents": []
@@ -152748,7 +153852,7 @@
       "DllImport": "SHLWAPI",
       "ReturnType": {
         "Kind": "ApiRef",
-        "Name": "LSTATUS",
+        "Name": "WIN32_ERROR",
         "TargetKind": "Default",
         "Api": "Foundation",
         "Parents": []
@@ -152819,7 +153923,7 @@
       "DllImport": "SHLWAPI",
       "ReturnType": {
         "Kind": "ApiRef",
-        "Name": "LSTATUS",
+        "Name": "WIN32_ERROR",
         "TargetKind": "Default",
         "Api": "Foundation",
         "Parents": []
@@ -152890,7 +153994,7 @@
       "DllImport": "SHLWAPI",
       "ReturnType": {
         "Kind": "ApiRef",
-        "Name": "LSTATUS",
+        "Name": "WIN32_ERROR",
         "TargetKind": "Default",
         "Api": "Foundation",
         "Parents": []
@@ -153010,7 +154114,7 @@
       "DllImport": "SHLWAPI",
       "ReturnType": {
         "Kind": "ApiRef",
-        "Name": "LSTATUS",
+        "Name": "WIN32_ERROR",
         "TargetKind": "Default",
         "Api": "Foundation",
         "Parents": []
@@ -153130,7 +154234,7 @@
       "DllImport": "SHLWAPI",
       "ReturnType": {
         "Kind": "ApiRef",
-        "Name": "LSTATUS",
+        "Name": "WIN32_ERROR",
         "TargetKind": "Default",
         "Api": "Foundation",
         "Parents": []
@@ -153217,7 +154321,7 @@
       "DllImport": "SHLWAPI",
       "ReturnType": {
         "Kind": "ApiRef",
-        "Name": "LSTATUS",
+        "Name": "WIN32_ERROR",
         "TargetKind": "Default",
         "Api": "Foundation",
         "Parents": []
@@ -153304,7 +154408,7 @@
       "DllImport": "SHLWAPI",
       "ReturnType": {
         "Kind": "ApiRef",
-        "Name": "LSTATUS",
+        "Name": "WIN32_ERROR",
         "TargetKind": "Default",
         "Api": "Foundation",
         "Parents": []
@@ -153374,7 +154478,7 @@
       "DllImport": "SHLWAPI",
       "ReturnType": {
         "Kind": "ApiRef",
-        "Name": "LSTATUS",
+        "Name": "WIN32_ERROR",
         "TargetKind": "Default",
         "Api": "Foundation",
         "Parents": []
@@ -153444,7 +154548,7 @@
       "DllImport": "SHLWAPI",
       "ReturnType": {
         "Kind": "ApiRef",
-        "Name": "LSTATUS",
+        "Name": "WIN32_ERROR",
         "TargetKind": "Default",
         "Api": "Foundation",
         "Parents": []
@@ -153531,7 +154635,7 @@
       "DllImport": "SHLWAPI",
       "ReturnType": {
         "Kind": "ApiRef",
-        "Name": "LSTATUS",
+        "Name": "WIN32_ERROR",
         "TargetKind": "Default",
         "Api": "Foundation",
         "Parents": []
@@ -153618,7 +154722,7 @@
       "DllImport": "SHLWAPI",
       "ReturnType": {
         "Kind": "ApiRef",
-        "Name": "LSTATUS",
+        "Name": "WIN32_ERROR",
         "TargetKind": "Default",
         "Api": "Foundation",
         "Parents": []
@@ -153703,7 +154807,7 @@
       "DllImport": "SHLWAPI",
       "ReturnType": {
         "Kind": "ApiRef",
-        "Name": "LSTATUS",
+        "Name": "WIN32_ERROR",
         "TargetKind": "Default",
         "Api": "Foundation",
         "Parents": []
@@ -153788,7 +154892,7 @@
       "DllImport": "SHLWAPI",
       "ReturnType": {
         "Kind": "ApiRef",
-        "Name": "LSTATUS",
+        "Name": "WIN32_ERROR",
         "TargetKind": "Default",
         "Api": "Foundation",
         "Parents": []
@@ -153864,7 +154968,7 @@
       "DllImport": "SHLWAPI",
       "ReturnType": {
         "Kind": "ApiRef",
-        "Name": "LSTATUS",
+        "Name": "WIN32_ERROR",
         "TargetKind": "Default",
         "Api": "Foundation",
         "Parents": []
@@ -153940,7 +155044,7 @@
       "DllImport": "SHLWAPI",
       "ReturnType": {
         "Kind": "ApiRef",
-        "Name": "LSTATUS",
+        "Name": "WIN32_ERROR",
         "TargetKind": "Default",
         "Api": "Foundation",
         "Parents": []
@@ -154019,7 +155123,7 @@
       "DllImport": "SHLWAPI",
       "ReturnType": {
         "Kind": "ApiRef",
-        "Name": "LSTATUS",
+        "Name": "WIN32_ERROR",
         "TargetKind": "Default",
         "Api": "Foundation",
         "Parents": []
@@ -154098,7 +155202,7 @@
       "DllImport": "SHLWAPI",
       "ReturnType": {
         "Kind": "ApiRef",
-        "Name": "LSTATUS",
+        "Name": "WIN32_ERROR",
         "TargetKind": "Default",
         "Api": "Foundation",
         "Parents": []
@@ -154231,7 +155335,7 @@
       "DllImport": "SHLWAPI",
       "ReturnType": {
         "Kind": "ApiRef",
-        "Name": "LSTATUS",
+        "Name": "WIN32_ERROR",
         "TargetKind": "Default",
         "Api": "Foundation",
         "Parents": []
@@ -154364,7 +155468,7 @@
       "DllImport": "SHLWAPI",
       "ReturnType": {
         "Kind": "ApiRef",
-        "Name": "LSTATUS",
+        "Name": "WIN32_ERROR",
         "TargetKind": "Default",
         "Api": "Foundation",
         "Parents": []
@@ -154454,7 +155558,7 @@
       "DllImport": "SHLWAPI",
       "ReturnType": {
         "Kind": "ApiRef",
-        "Name": "LSTATUS",
+        "Name": "WIN32_ERROR",
         "TargetKind": "Default",
         "Api": "Foundation",
         "Parents": []
@@ -154544,7 +155648,7 @@
       "DllImport": "SHLWAPI",
       "ReturnType": {
         "Kind": "ApiRef",
-        "Name": "LSTATUS",
+        "Name": "WIN32_ERROR",
         "TargetKind": "Default",
         "Api": "Foundation",
         "Parents": []
@@ -154599,7 +155703,7 @@
       "DllImport": "SHLWAPI",
       "ReturnType": {
         "Kind": "ApiRef",
-        "Name": "LSTATUS",
+        "Name": "WIN32_ERROR",
         "TargetKind": "Default",
         "Api": "Foundation",
         "Parents": []
@@ -154654,7 +155758,7 @@
       "DllImport": "SHLWAPI",
       "ReturnType": {
         "Kind": "ApiRef",
-        "Name": "LSTATUS",
+        "Name": "WIN32_ERROR",
         "TargetKind": "Default",
         "Api": "Foundation",
         "Parents": []
@@ -154709,7 +155813,7 @@
       "DllImport": "SHLWAPI",
       "ReturnType": {
         "Kind": "ApiRef",
-        "Name": "LSTATUS",
+        "Name": "WIN32_ERROR",
         "TargetKind": "Default",
         "Api": "Foundation",
         "Parents": []
@@ -154764,7 +155868,7 @@
       "DllImport": "SHLWAPI",
       "ReturnType": {
         "Kind": "ApiRef",
-        "Name": "LSTATUS",
+        "Name": "WIN32_ERROR",
         "TargetKind": "Default",
         "Api": "Foundation",
         "Parents": []
@@ -154845,7 +155949,7 @@
       "DllImport": "SHLWAPI",
       "ReturnType": {
         "Kind": "ApiRef",
-        "Name": "LSTATUS",
+        "Name": "WIN32_ERROR",
         "TargetKind": "Default",
         "Api": "Foundation",
         "Parents": []
@@ -154926,7 +156030,7 @@
       "DllImport": "SHLWAPI",
       "ReturnType": {
         "Kind": "ApiRef",
-        "Name": "LSTATUS",
+        "Name": "WIN32_ERROR",
         "TargetKind": "Default",
         "Api": "Foundation",
         "Parents": []
@@ -155054,7 +156158,7 @@
       "DllImport": "SHLWAPI",
       "ReturnType": {
         "Kind": "ApiRef",
-        "Name": "LSTATUS",
+        "Name": "WIN32_ERROR",
         "TargetKind": "Default",
         "Api": "Foundation",
         "Parents": []
@@ -155182,7 +156286,7 @@
       "DllImport": "SHLWAPI",
       "ReturnType": {
         "Kind": "ApiRef",
-        "Name": "LSTATUS",
+        "Name": "WIN32_ERROR",
         "TargetKind": "Default",
         "Api": "Foundation",
         "Parents": []
@@ -155279,7 +156383,7 @@
       "DllImport": "SHLWAPI",
       "ReturnType": {
         "Kind": "ApiRef",
-        "Name": "LSTATUS",
+        "Name": "WIN32_ERROR",
         "TargetKind": "Default",
         "Api": "Foundation",
         "Parents": []
@@ -155376,7 +156480,7 @@
       "DllImport": "SHLWAPI",
       "ReturnType": {
         "Kind": "ApiRef",
-        "Name": "LSTATUS",
+        "Name": "WIN32_ERROR",
         "TargetKind": "Default",
         "Api": "Foundation",
         "Parents": []
@@ -155404,7 +156508,7 @@
       "DllImport": "SHLWAPI",
       "ReturnType": {
         "Kind": "ApiRef",
-        "Name": "LSTATUS",
+        "Name": "WIN32_ERROR",
         "TargetKind": "Default",
         "Api": "Foundation",
         "Parents": []
@@ -155540,7 +156644,7 @@
       "DllImport": "SHLWAPI",
       "ReturnType": {
         "Kind": "ApiRef",
-        "Name": "LSTATUS",
+        "Name": "WIN32_ERROR",
         "TargetKind": "Default",
         "Api": "Foundation",
         "Parents": []
@@ -155676,7 +156780,7 @@
       "DllImport": "SHLWAPI",
       "ReturnType": {
         "Kind": "ApiRef",
-        "Name": "LSTATUS",
+        "Name": "WIN32_ERROR",
         "TargetKind": "Default",
         "Api": "Foundation",
         "Parents": []
@@ -155773,7 +156877,7 @@
       "DllImport": "SHLWAPI",
       "ReturnType": {
         "Kind": "ApiRef",
-        "Name": "LSTATUS",
+        "Name": "WIN32_ERROR",
         "TargetKind": "Default",
         "Api": "Foundation",
         "Parents": []
@@ -155869,8 +156973,11 @@
       "SetLastError": false,
       "DllImport": "SHLWAPI",
       "ReturnType": {
-        "Kind": "Native",
-        "Name": "Int32"
+        "Kind": "ApiRef",
+        "Name": "WIN32_ERROR",
+        "TargetKind": "Default",
+        "Api": "Foundation",
+        "Parents": []
       },
       "ReturnAttrs": [],
       "Architectures": [],
@@ -155923,7 +157030,7 @@
       "DllImport": "SHLWAPI",
       "ReturnType": {
         "Kind": "ApiRef",
-        "Name": "BOOL",
+        "Name": "WIN32_ERROR",
         "TargetKind": "Default",
         "Api": "Foundation",
         "Parents": []
@@ -155996,7 +157103,7 @@
       "DllImport": "SHLWAPI",
       "ReturnType": {
         "Kind": "ApiRef",
-        "Name": "BOOL",
+        "Name": "WIN32_ERROR",
         "TargetKind": "Default",
         "Api": "Foundation",
         "Parents": []

@@ -641,246 +641,6 @@
       "Attrs": []
     },
     {
-      "Name": "STGM_DIRECT",
-      "Type": {
-        "Kind": "Native",
-        "Name": "Int32"
-      },
-      "ValueType": "Int32",
-      "Value": 0,
-      "Attrs": []
-    },
-    {
-      "Name": "STGM_TRANSACTED",
-      "Type": {
-        "Kind": "Native",
-        "Name": "Int32"
-      },
-      "ValueType": "Int32",
-      "Value": 65536,
-      "Attrs": []
-    },
-    {
-      "Name": "STGM_SIMPLE",
-      "Type": {
-        "Kind": "Native",
-        "Name": "Int32"
-      },
-      "ValueType": "Int32",
-      "Value": 134217728,
-      "Attrs": []
-    },
-    {
-      "Name": "STGM_READ",
-      "Type": {
-        "Kind": "Native",
-        "Name": "Int32"
-      },
-      "ValueType": "Int32",
-      "Value": 0,
-      "Attrs": []
-    },
-    {
-      "Name": "STGM_WRITE",
-      "Type": {
-        "Kind": "Native",
-        "Name": "Int32"
-      },
-      "ValueType": "Int32",
-      "Value": 1,
-      "Attrs": []
-    },
-    {
-      "Name": "STGM_READWRITE",
-      "Type": {
-        "Kind": "Native",
-        "Name": "Int32"
-      },
-      "ValueType": "Int32",
-      "Value": 2,
-      "Attrs": []
-    },
-    {
-      "Name": "STGM_SHARE_DENY_NONE",
-      "Type": {
-        "Kind": "Native",
-        "Name": "Int32"
-      },
-      "ValueType": "Int32",
-      "Value": 64,
-      "Attrs": []
-    },
-    {
-      "Name": "STGM_SHARE_DENY_READ",
-      "Type": {
-        "Kind": "Native",
-        "Name": "Int32"
-      },
-      "ValueType": "Int32",
-      "Value": 48,
-      "Attrs": []
-    },
-    {
-      "Name": "STGM_SHARE_DENY_WRITE",
-      "Type": {
-        "Kind": "Native",
-        "Name": "Int32"
-      },
-      "ValueType": "Int32",
-      "Value": 32,
-      "Attrs": []
-    },
-    {
-      "Name": "STGM_SHARE_EXCLUSIVE",
-      "Type": {
-        "Kind": "Native",
-        "Name": "Int32"
-      },
-      "ValueType": "Int32",
-      "Value": 16,
-      "Attrs": []
-    },
-    {
-      "Name": "STGM_PRIORITY",
-      "Type": {
-        "Kind": "Native",
-        "Name": "Int32"
-      },
-      "ValueType": "Int32",
-      "Value": 262144,
-      "Attrs": []
-    },
-    {
-      "Name": "STGM_DELETEONRELEASE",
-      "Type": {
-        "Kind": "Native",
-        "Name": "Int32"
-      },
-      "ValueType": "Int32",
-      "Value": 67108864,
-      "Attrs": []
-    },
-    {
-      "Name": "STGM_NOSCRATCH",
-      "Type": {
-        "Kind": "Native",
-        "Name": "Int32"
-      },
-      "ValueType": "Int32",
-      "Value": 1048576,
-      "Attrs": []
-    },
-    {
-      "Name": "STGM_CREATE",
-      "Type": {
-        "Kind": "Native",
-        "Name": "Int32"
-      },
-      "ValueType": "Int32",
-      "Value": 4096,
-      "Attrs": []
-    },
-    {
-      "Name": "STGM_CONVERT",
-      "Type": {
-        "Kind": "Native",
-        "Name": "Int32"
-      },
-      "ValueType": "Int32",
-      "Value": 131072,
-      "Attrs": []
-    },
-    {
-      "Name": "STGM_FAILIFTHERE",
-      "Type": {
-        "Kind": "Native",
-        "Name": "Int32"
-      },
-      "ValueType": "Int32",
-      "Value": 0,
-      "Attrs": []
-    },
-    {
-      "Name": "STGM_NOSNAPSHOT",
-      "Type": {
-        "Kind": "Native",
-        "Name": "Int32"
-      },
-      "ValueType": "Int32",
-      "Value": 2097152,
-      "Attrs": []
-    },
-    {
-      "Name": "STGM_DIRECT_SWMR",
-      "Type": {
-        "Kind": "Native",
-        "Name": "Int32"
-      },
-      "ValueType": "Int32",
-      "Value": 4194304,
-      "Attrs": []
-    },
-    {
-      "Name": "STGFMT_STORAGE",
-      "Type": {
-        "Kind": "Native",
-        "Name": "UInt32"
-      },
-      "ValueType": "UInt32",
-      "Value": 0,
-      "Attrs": []
-    },
-    {
-      "Name": "STGFMT_NATIVE",
-      "Type": {
-        "Kind": "Native",
-        "Name": "UInt32"
-      },
-      "ValueType": "UInt32",
-      "Value": 1,
-      "Attrs": []
-    },
-    {
-      "Name": "STGFMT_FILE",
-      "Type": {
-        "Kind": "Native",
-        "Name": "UInt32"
-      },
-      "ValueType": "UInt32",
-      "Value": 3,
-      "Attrs": []
-    },
-    {
-      "Name": "STGFMT_ANY",
-      "Type": {
-        "Kind": "Native",
-        "Name": "UInt32"
-      },
-      "ValueType": "UInt32",
-      "Value": 4,
-      "Attrs": []
-    },
-    {
-      "Name": "STGFMT_DOCFILE",
-      "Type": {
-        "Kind": "Native",
-        "Name": "UInt32"
-      },
-      "ValueType": "UInt32",
-      "Value": 5,
-      "Attrs": []
-    },
-    {
-      "Name": "STGFMT_DOCUMENT",
-      "Type": {
-        "Kind": "Native",
-        "Name": "UInt32"
-      },
-      "ValueType": "UInt32",
-      "Value": 0,
-      "Attrs": []
-    },
-    {
       "Name": "STGOPTIONS_VERSION",
       "Type": {
         "Kind": "Native",
@@ -922,11 +682,129 @@
       "IntegerBase": "UInt32"
     },
     {
-      "Name": "STGC",
+      "Name": "STGM",
+      "Architectures": [],
+      "Platform": null,
+      "Kind": "Enum",
+      "Flags": true,
+      "Scoped": false,
+      "Values": [
+        {
+          "Name": "STGM_DIRECT",
+          "Value": 0
+        },
+        {
+          "Name": "STGM_TRANSACTED",
+          "Value": 65536
+        },
+        {
+          "Name": "STGM_SIMPLE",
+          "Value": 134217728
+        },
+        {
+          "Name": "STGM_READ",
+          "Value": 0
+        },
+        {
+          "Name": "STGM_WRITE",
+          "Value": 1
+        },
+        {
+          "Name": "STGM_READWRITE",
+          "Value": 2
+        },
+        {
+          "Name": "STGM_SHARE_DENY_NONE",
+          "Value": 64
+        },
+        {
+          "Name": "STGM_SHARE_DENY_READ",
+          "Value": 48
+        },
+        {
+          "Name": "STGM_SHARE_DENY_WRITE",
+          "Value": 32
+        },
+        {
+          "Name": "STGM_SHARE_EXCLUSIVE",
+          "Value": 16
+        },
+        {
+          "Name": "STGM_PRIORITY",
+          "Value": 262144
+        },
+        {
+          "Name": "STGM_DELETEONRELEASE",
+          "Value": 67108864
+        },
+        {
+          "Name": "STGM_NOSCRATCH",
+          "Value": 1048576
+        },
+        {
+          "Name": "STGM_CREATE",
+          "Value": 4096
+        },
+        {
+          "Name": "STGM_CONVERT",
+          "Value": 131072
+        },
+        {
+          "Name": "STGM_FAILIFTHERE",
+          "Value": 0
+        },
+        {
+          "Name": "STGM_NOSNAPSHOT",
+          "Value": 2097152
+        },
+        {
+          "Name": "STGM_DIRECT_SWMR",
+          "Value": 4194304
+        }
+      ],
+      "IntegerBase": "UInt32"
+    },
+    {
+      "Name": "STGFMT",
       "Architectures": [],
       "Platform": null,
       "Kind": "Enum",
       "Flags": false,
+      "Scoped": false,
+      "Values": [
+        {
+          "Name": "STGFMT_STORAGE",
+          "Value": 0
+        },
+        {
+          "Name": "STGFMT_NATIVE",
+          "Value": 1
+        },
+        {
+          "Name": "STGFMT_FILE",
+          "Value": 3
+        },
+        {
+          "Name": "STGFMT_ANY",
+          "Value": 4
+        },
+        {
+          "Name": "STGFMT_DOCFILE",
+          "Value": 5
+        },
+        {
+          "Name": "STGFMT_DOCUMENT",
+          "Value": 0
+        }
+      ],
+      "IntegerBase": "UInt32"
+    },
+    {
+      "Name": "STGC",
+      "Architectures": [],
+      "Platform": null,
+      "Kind": "Enum",
+      "Flags": true,
       "Scoped": false,
       "Values": [
         {
@@ -950,7 +828,7 @@
           "Value": 8
         }
       ],
-      "IntegerBase": "Int32"
+      "IntegerBase": "UInt32"
     },
     {
       "Name": "STGMOVE",
@@ -1330,8 +1208,11 @@
             {
               "Name": "grfMode",
               "Type": {
-                "Kind": "Native",
-                "Name": "UInt32"
+                "Kind": "ApiRef",
+                "Name": "STGM",
+                "TargetKind": "Default",
+                "Api": "System.Com.StructuredStorage",
+                "Parents": []
               },
               "Attrs": [
                 "In"
@@ -1422,8 +1303,11 @@
             {
               "Name": "grfMode",
               "Type": {
-                "Kind": "Native",
-                "Name": "UInt32"
+                "Kind": "ApiRef",
+                "Name": "STGM",
+                "TargetKind": "Default",
+                "Api": "System.Com.StructuredStorage",
+                "Parents": []
               },
               "Attrs": [
                 "In"
@@ -1489,8 +1373,11 @@
             {
               "Name": "grfMode",
               "Type": {
-                "Kind": "Native",
-                "Name": "UInt32"
+                "Kind": "ApiRef",
+                "Name": "STGM",
+                "TargetKind": "Default",
+                "Api": "System.Com.StructuredStorage",
+                "Parents": []
               },
               "Attrs": [
                 "In"
@@ -1579,8 +1466,11 @@
             {
               "Name": "grfMode",
               "Type": {
-                "Kind": "Native",
-                "Name": "UInt32"
+                "Kind": "ApiRef",
+                "Name": "STGM",
+                "TargetKind": "Default",
+                "Api": "System.Com.StructuredStorage",
+                "Parents": []
               },
               "Attrs": [
                 "In"
@@ -1764,8 +1654,11 @@
             {
               "Name": "grfFlags",
               "Type": {
-                "Kind": "Native",
-                "Name": "UInt32"
+                "Kind": "ApiRef",
+                "Name": "STGMOVE",
+                "TargetKind": "Default",
+                "Api": "System.Com.StructuredStorage",
+                "Parents": []
               },
               "Attrs": [
                 "In"
@@ -1791,8 +1684,11 @@
             {
               "Name": "grfCommitFlags",
               "Type": {
-                "Kind": "Native",
-                "Name": "UInt32"
+                "Kind": "ApiRef",
+                "Name": "STGC",
+                "TargetKind": "Default",
+                "Api": "System.Com.StructuredStorage",
+                "Parents": []
               },
               "Attrs": [
                 "In"
@@ -7692,8 +7588,11 @@
         {
           "Name": "grfMode",
           "Type": {
-            "Kind": "Native",
-            "Name": "UInt32"
+            "Kind": "ApiRef",
+            "Name": "STGM",
+            "TargetKind": "Default",
+            "Api": "System.Com.StructuredStorage",
+            "Parents": []
           },
           "Attrs": [
             "In"
@@ -7760,8 +7659,11 @@
         {
           "Name": "grfMode",
           "Type": {
-            "Kind": "Native",
-            "Name": "UInt32"
+            "Kind": "ApiRef",
+            "Name": "STGM",
+            "TargetKind": "Default",
+            "Api": "System.Com.StructuredStorage",
+            "Parents": []
           },
           "Attrs": [
             "In"
@@ -7843,8 +7745,11 @@
         {
           "Name": "grfMode",
           "Type": {
-            "Kind": "Native",
-            "Name": "UInt32"
+            "Kind": "ApiRef",
+            "Name": "STGM",
+            "TargetKind": "Default",
+            "Api": "System.Com.StructuredStorage",
+            "Parents": []
           },
           "Attrs": [
             "In"
@@ -8177,8 +8082,11 @@
         {
           "Name": "grfMode",
           "Type": {
-            "Kind": "Native",
-            "Name": "UInt32"
+            "Kind": "ApiRef",
+            "Name": "STGM",
+            "TargetKind": "Default",
+            "Api": "System.Com.StructuredStorage",
+            "Parents": []
           },
           "Attrs": [
             "In"
@@ -8187,8 +8095,11 @@
         {
           "Name": "stgfmt",
           "Type": {
-            "Kind": "Native",
-            "Name": "UInt32"
+            "Kind": "ApiRef",
+            "Name": "STGFMT",
+            "TargetKind": "Default",
+            "Api": "System.Com.StructuredStorage",
+            "Parents": []
           },
           "Attrs": [
             "In"
@@ -8225,14 +8136,11 @@
         {
           "Name": "pSecurityDescriptor",
           "Type": {
-            "Kind": "PointerTo",
-            "Child": {
-              "Kind": "ApiRef",
-              "Name": "SECURITY_DESCRIPTOR",
-              "TargetKind": "Default",
-              "Api": "Security",
-              "Parents": []
-            }
+            "Kind": "ApiRef",
+            "Name": "PSECURITY_DESCRIPTOR",
+            "TargetKind": "Default",
+            "Api": "Security",
+            "Parents": []
           },
           "Attrs": [
             "In",
@@ -8304,8 +8212,11 @@
         {
           "Name": "grfMode",
           "Type": {
-            "Kind": "Native",
-            "Name": "UInt32"
+            "Kind": "ApiRef",
+            "Name": "STGM",
+            "TargetKind": "Default",
+            "Api": "System.Com.StructuredStorage",
+            "Parents": []
           },
           "Attrs": [
             "In"
@@ -8314,8 +8225,11 @@
         {
           "Name": "stgfmt",
           "Type": {
-            "Kind": "Native",
-            "Name": "UInt32"
+            "Kind": "ApiRef",
+            "Name": "STGFMT",
+            "TargetKind": "Default",
+            "Api": "System.Com.StructuredStorage",
+            "Parents": []
           },
           "Attrs": [
             "In"
@@ -8352,14 +8266,11 @@
         {
           "Name": "pSecurityDescriptor",
           "Type": {
-            "Kind": "PointerTo",
-            "Child": {
-              "Kind": "ApiRef",
-              "Name": "SECURITY_DESCRIPTOR",
-              "TargetKind": "Default",
-              "Api": "Security",
-              "Parents": []
-            }
+            "Kind": "ApiRef",
+            "Name": "PSECURITY_DESCRIPTOR",
+            "TargetKind": "Default",
+            "Api": "Security",
+            "Parents": []
           },
           "Attrs": [
             "In",

@@ -291,6 +291,176 @@
       "Attrs": []
     },
     {
+      "Name": "wszGRAVE",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "̀",
+      "Attrs": []
+    },
+    {
+      "Name": "wszACUTE",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "́",
+      "Attrs": []
+    },
+    {
+      "Name": "wszCIRCUMFLEX",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "̂",
+      "Attrs": []
+    },
+    {
+      "Name": "wszTILDE",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "̃",
+      "Attrs": []
+    },
+    {
+      "Name": "wszMACRON",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "̄",
+      "Attrs": []
+    },
+    {
+      "Name": "wszOVERSCORE",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "̅",
+      "Attrs": []
+    },
+    {
+      "Name": "wszBREVE",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "̆",
+      "Attrs": []
+    },
+    {
+      "Name": "wszDOT_ABOVE",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "̇",
+      "Attrs": []
+    },
+    {
+      "Name": "wszUMLAUT",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "̈",
+      "Attrs": []
+    },
+    {
+      "Name": "wszHOOK_ABOVE",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "̉",
+      "Attrs": []
+    },
+    {
+      "Name": "wszRING",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "̊",
+      "Attrs": []
+    },
+    {
+      "Name": "wszDOUBLE_ACUTE",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "̋",
+      "Attrs": []
+    },
+    {
+      "Name": "wszHACEK",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "̌",
+      "Attrs": []
+    },
+    {
+      "Name": "wszCEDILLA",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "̧",
+      "Attrs": []
+    },
+    {
+      "Name": "wszOGONEK",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "̨",
+      "Attrs": []
+    },
+    {
+      "Name": "wszTONOS",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "΄",
+      "Attrs": []
+    },
+    {
+      "Name": "wszDIARESIS_TONOS",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "΅",
+      "Attrs": []
+    },
+    {
       "Name": "SHFT_INVALID",
       "Type": {
         "Kind": "Native",
@@ -3978,7 +4148,7 @@
           "Name": "mouseData",
           "Type": {
             "Kind": "Native",
-            "Name": "UInt32"
+            "Name": "Int32"
           },
           "Attrs": []
         },

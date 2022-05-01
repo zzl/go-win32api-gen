@@ -1,6 +1,36 @@
 {
   "Constants": [
     {
+      "Name": "EA_CONTAINER_NAME",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "ContainerName",
+      "Attrs": []
+    },
+    {
+      "Name": "EA_CONTAINER_SIZE",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "ContainerSize",
+      "Attrs": []
+    },
+    {
+      "Name": "CLFS_BASELOG_EXTENSION",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": ".blf",
+      "Attrs": []
+    },
+    {
       "Name": "CLFS_FLAG_REENTRANT_FILE_SYSTEM",
       "Type": {
         "Kind": "Native",
@@ -108,6 +138,26 @@
       },
       "ValueType": "UInt32",
       "Value": 32,
+      "Attrs": []
+    },
+    {
+      "Name": "CLFS_CONTAINER_STREAM_PREFIX",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "%BLF%:",
+      "Attrs": []
+    },
+    {
+      "Name": "CLFS_CONTAINER_RELATIVE_PREFIX",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "%BLF%\\",
       "Attrs": []
     },
     {
@@ -558,6 +608,46 @@
       },
       "ValueType": "UInt32",
       "Value": 1073741824,
+      "Attrs": []
+    },
+    {
+      "Name": "TRANSACTIONMANAGER_OBJECT_PATH",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "\\TransactionManager\\",
+      "Attrs": []
+    },
+    {
+      "Name": "TRANSACTION_OBJECT_PATH",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "\\Transaction\\",
+      "Attrs": []
+    },
+    {
+      "Name": "ENLISTMENT_OBJECT_PATH",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "\\Enlistment\\",
+      "Attrs": []
+    },
+    {
+      "Name": "RESOURCE_MANAGER_OBJECT_PATH",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "\\ResourceManager\\",
       "Attrs": []
     },
     {
@@ -13856,7 +13946,7 @@
               ]
             },
             {
-              "Name": "_AutoGrow_e__Struct",
+              "Name": "_NewContainerSize_e__Struct",
               "Architectures": [],
               "Platform": null,
               "Kind": "Struct",
@@ -13864,7 +13954,7 @@
               "PackingSize": 0,
               "Fields": [
                 {
-                  "Name": "Enabled",
+                  "Name": "SizeInBytes",
                   "Type": {
                     "Kind": "Native",
                     "Name": "UInt32"
@@ -13876,7 +13966,7 @@
               ]
             },
             {
-              "Name": "_NewContainerSize_e__Struct",
+              "Name": "_AutoGrow_e__Struct",
               "Architectures": [],
               "Platform": null,
               "Kind": "Struct",
@@ -13884,7 +13974,7 @@
               "PackingSize": 0,
               "Fields": [
                 {
-                  "Name": "SizeInBytes",
+                  "Name": "Enabled",
                   "Type": {
                     "Kind": "Native",
                     "Name": "UInt32"
@@ -18129,14 +18219,11 @@
         {
           "Name": "shi502_security_descriptor",
           "Type": {
-            "Kind": "PointerTo",
-            "Child": {
-              "Kind": "ApiRef",
-              "Name": "SECURITY_DESCRIPTOR",
-              "TargetKind": "Default",
-              "Api": "Security",
-              "Parents": []
-            }
+            "Kind": "ApiRef",
+            "Name": "PSECURITY_DESCRIPTOR",
+            "TargetKind": "Default",
+            "Api": "Security",
+            "Parents": []
           },
           "Attrs": []
         }
@@ -18256,14 +18343,11 @@
         {
           "Name": "shi503_security_descriptor",
           "Type": {
-            "Kind": "PointerTo",
-            "Child": {
-              "Kind": "ApiRef",
-              "Name": "SECURITY_DESCRIPTOR",
-              "TargetKind": "Default",
-              "Api": "Security",
-              "Parents": []
-            }
+            "Kind": "ApiRef",
+            "Name": "PSECURITY_DESCRIPTOR",
+            "TargetKind": "Default",
+            "Api": "Security",
+            "Parents": []
           },
           "Attrs": []
         }
@@ -18353,14 +18437,11 @@
         {
           "Name": "shi1501_security_descriptor",
           "Type": {
-            "Kind": "PointerTo",
-            "Child": {
-              "Kind": "ApiRef",
-              "Name": "SECURITY_DESCRIPTOR",
-              "TargetKind": "Default",
-              "Api": "Security",
-              "Parents": []
-            }
+            "Kind": "ApiRef",
+            "Name": "PSECURITY_DESCRIPTOR",
+            "TargetKind": "Default",
+            "Api": "Security",
+            "Parents": []
           },
           "Attrs": []
         }
@@ -20256,18 +20337,14 @@
         {
           "Name": "pSecurityDescriptor",
           "Type": {
-            "Kind": "PointerTo",
-            "Child": {
-              "Kind": "ApiRef",
-              "Name": "SECURITY_DESCRIPTOR",
-              "TargetKind": "Default",
-              "Api": "Security",
-              "Parents": []
-            }
+            "Kind": "ApiRef",
+            "Name": "PSECURITY_DESCRIPTOR",
+            "TargetKind": "Default",
+            "Api": "Security",
+            "Parents": []
           },
           "Attrs": [
-            "In",
-            "Out"
+            "In"
           ]
         },
         {
@@ -22520,6 +22597,78 @@
               ]
             },
             {
+              "Name": "_StreamStarted_e__Struct",
+              "Architectures": [],
+              "Platform": null,
+              "Kind": "Struct",
+              "Size": 0,
+              "PackingSize": 0,
+              "Fields": [
+                {
+                  "Name": "dwStreamNumber",
+                  "Type": {
+                    "Kind": "Native",
+                    "Name": "UInt32"
+                  },
+                  "Attrs": []
+                },
+                {
+                  "Name": "dwReserved",
+                  "Type": {
+                    "Kind": "Native",
+                    "Name": "UInt32"
+                  },
+                  "Attrs": []
+                },
+                {
+                  "Name": "hSourceFile",
+                  "Type": {
+                    "Kind": "ApiRef",
+                    "Name": "HANDLE",
+                    "TargetKind": "Default",
+                    "Api": "Foundation",
+                    "Parents": []
+                  },
+                  "Attrs": []
+                },
+                {
+                  "Name": "hDestinationFile",
+                  "Type": {
+                    "Kind": "ApiRef",
+                    "Name": "HANDLE",
+                    "TargetKind": "Default",
+                    "Api": "Foundation",
+                    "Parents": []
+                  },
+                  "Attrs": []
+                },
+                {
+                  "Name": "uliStreamSize",
+                  "Type": {
+                    "Kind": "ApiRef",
+                    "Name": "ULARGE_INTEGER",
+                    "TargetKind": "Default",
+                    "Api": "Foundation",
+                    "Parents": []
+                  },
+                  "Attrs": []
+                },
+                {
+                  "Name": "uliTotalFileSize",
+                  "Type": {
+                    "Kind": "ApiRef",
+                    "Name": "ULARGE_INTEGER",
+                    "TargetKind": "Default",
+                    "Api": "Foundation",
+                    "Parents": []
+                  },
+                  "Attrs": []
+                }
+              ],
+              "NestedTypes": [
+              ]
+            },
+            {
               "Name": "_PollContinue_e__Struct",
               "Architectures": [],
               "Platform": null,
@@ -22601,78 +22750,6 @@
                   "Type": {
                     "Kind": "ApiRef",
                     "Name": "ULARGE_INTEGER",
-                    "TargetKind": "Default",
-                    "Api": "Foundation",
-                    "Parents": []
-                  },
-                  "Attrs": []
-                },
-                {
-                  "Name": "uliStreamSize",
-                  "Type": {
-                    "Kind": "ApiRef",
-                    "Name": "ULARGE_INTEGER",
-                    "TargetKind": "Default",
-                    "Api": "Foundation",
-                    "Parents": []
-                  },
-                  "Attrs": []
-                },
-                {
-                  "Name": "uliTotalFileSize",
-                  "Type": {
-                    "Kind": "ApiRef",
-                    "Name": "ULARGE_INTEGER",
-                    "TargetKind": "Default",
-                    "Api": "Foundation",
-                    "Parents": []
-                  },
-                  "Attrs": []
-                }
-              ],
-              "NestedTypes": [
-              ]
-            },
-            {
-              "Name": "_StreamStarted_e__Struct",
-              "Architectures": [],
-              "Platform": null,
-              "Kind": "Struct",
-              "Size": 0,
-              "PackingSize": 0,
-              "Fields": [
-                {
-                  "Name": "dwStreamNumber",
-                  "Type": {
-                    "Kind": "Native",
-                    "Name": "UInt32"
-                  },
-                  "Attrs": []
-                },
-                {
-                  "Name": "dwReserved",
-                  "Type": {
-                    "Kind": "Native",
-                    "Name": "UInt32"
-                  },
-                  "Attrs": []
-                },
-                {
-                  "Name": "hSourceFile",
-                  "Type": {
-                    "Kind": "ApiRef",
-                    "Name": "HANDLE",
-                    "TargetKind": "Default",
-                    "Api": "Foundation",
-                    "Parents": []
-                  },
-                  "Attrs": []
-                },
-                {
-                  "Name": "hDestinationFile",
-                  "Type": {
-                    "Kind": "ApiRef",
-                    "Name": "HANDLE",
                     "TargetKind": "Default",
                     "Api": "Foundation",
                     "Parents": []
@@ -24183,26 +24260,6 @@
               ],
               "NestedTypes": [
                 {
-                  "Name": "_Server_e__Struct",
-                  "Architectures": [],
-                  "Platform": null,
-                  "Kind": "Struct",
-                  "Size": 0,
-                  "PackingSize": 0,
-                  "Fields": [
-                    {
-                      "Name": "Capabilities",
-                      "Type": {
-                        "Kind": "Native",
-                        "Name": "UInt32"
-                      },
-                      "Attrs": []
-                    }
-                  ],
-                  "NestedTypes": [
-                  ]
-                },
-                {
                   "Name": "_Share_e__Struct",
                   "Architectures": [],
                   "Platform": null,
@@ -24220,6 +24277,26 @@
                     },
                     {
                       "Name": "CachingFlags",
+                      "Type": {
+                        "Kind": "Native",
+                        "Name": "UInt32"
+                      },
+                      "Attrs": []
+                    }
+                  ],
+                  "NestedTypes": [
+                  ]
+                },
+                {
+                  "Name": "_Server_e__Struct",
+                  "Architectures": [],
+                  "Platform": null,
+                  "Kind": "Struct",
+                  "Size": 0,
+                  "PackingSize": 0,
+                  "Fields": [
+                    {
+                      "Name": "Capabilities",
                       "Type": {
                         "Kind": "Native",
                         "Name": "UInt32"
@@ -25191,8 +25268,7 @@
             "Parents": []
           },
           "Attrs": [
-            "In",
-            "Out"
+            "In"
           ]
         }
       ]
@@ -25833,8 +25909,7 @@
             "Parents": []
           },
           "Attrs": [
-            "In",
-            "Out"
+            "In"
           ]
         },
         {
@@ -49630,8 +49705,7 @@
             "Parents": []
           },
           "Attrs": [
-            "In",
-            "Out"
+            "In"
           ]
         },
         {

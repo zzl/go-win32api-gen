@@ -289,6 +289,196 @@
       "ValueType": "UInt32",
       "Value": 4,
       "Attrs": []
+    },
+    {
+      "Name": "PROC_THREAD_ATTRIBUTE_PARENT_PROCESS",
+      "Type": {
+        "Kind": "Native",
+        "Name": "UInt32"
+      },
+      "ValueType": "UInt32",
+      "Value": 131072,
+      "Attrs": []
+    },
+    {
+      "Name": "PROC_THREAD_ATTRIBUTE_HANDLE_LIST",
+      "Type": {
+        "Kind": "Native",
+        "Name": "UInt32"
+      },
+      "ValueType": "UInt32",
+      "Value": 131074,
+      "Attrs": []
+    },
+    {
+      "Name": "PROC_THREAD_ATTRIBUTE_GROUP_AFFINITY",
+      "Type": {
+        "Kind": "Native",
+        "Name": "UInt32"
+      },
+      "ValueType": "UInt32",
+      "Value": 196611,
+      "Attrs": []
+    },
+    {
+      "Name": "PROC_THREAD_ATTRIBUTE_PREFERRED_NODE",
+      "Type": {
+        "Kind": "Native",
+        "Name": "UInt32"
+      },
+      "ValueType": "UInt32",
+      "Value": 131076,
+      "Attrs": []
+    },
+    {
+      "Name": "PROC_THREAD_ATTRIBUTE_IDEAL_PROCESSOR",
+      "Type": {
+        "Kind": "Native",
+        "Name": "UInt32"
+      },
+      "ValueType": "UInt32",
+      "Value": 196613,
+      "Attrs": []
+    },
+    {
+      "Name": "PROC_THREAD_ATTRIBUTE_UMS_THREAD",
+      "Type": {
+        "Kind": "Native",
+        "Name": "UInt32"
+      },
+      "ValueType": "UInt32",
+      "Value": 196614,
+      "Attrs": []
+    },
+    {
+      "Name": "PROC_THREAD_ATTRIBUTE_MITIGATION_POLICY",
+      "Type": {
+        "Kind": "Native",
+        "Name": "UInt32"
+      },
+      "ValueType": "UInt32",
+      "Value": 131079,
+      "Attrs": []
+    },
+    {
+      "Name": "PROC_THREAD_ATTRIBUTE_SECURITY_CAPABILITIES",
+      "Type": {
+        "Kind": "Native",
+        "Name": "UInt32"
+      },
+      "ValueType": "UInt32",
+      "Value": 131081,
+      "Attrs": []
+    },
+    {
+      "Name": "PROC_THREAD_ATTRIBUTE_PROTECTION_LEVEL",
+      "Type": {
+        "Kind": "Native",
+        "Name": "UInt32"
+      },
+      "ValueType": "UInt32",
+      "Value": 131083,
+      "Attrs": []
+    },
+    {
+      "Name": "PROC_THREAD_ATTRIBUTE_PSEUDOCONSOLE",
+      "Type": {
+        "Kind": "Native",
+        "Name": "UInt32"
+      },
+      "ValueType": "UInt32",
+      "Value": 131094,
+      "Attrs": []
+    },
+    {
+      "Name": "PROC_THREAD_ATTRIBUTE_MACHINE_TYPE",
+      "Type": {
+        "Kind": "Native",
+        "Name": "UInt32"
+      },
+      "ValueType": "UInt32",
+      "Value": 131097,
+      "Attrs": []
+    },
+    {
+      "Name": "PROC_THREAD_ATTRIBUTE_ENABLE_OPTIONAL_XSTATE_FEATURES",
+      "Type": {
+        "Kind": "Native",
+        "Name": "UInt32"
+      },
+      "ValueType": "UInt32",
+      "Value": 196635,
+      "Attrs": []
+    },
+    {
+      "Name": "PROC_THREAD_ATTRIBUTE_WIN32K_FILTER",
+      "Type": {
+        "Kind": "Native",
+        "Name": "UInt32"
+      },
+      "ValueType": "UInt32",
+      "Value": 131088,
+      "Attrs": []
+    },
+    {
+      "Name": "PROC_THREAD_ATTRIBUTE_JOB_LIST",
+      "Type": {
+        "Kind": "Native",
+        "Name": "UInt32"
+      },
+      "ValueType": "UInt32",
+      "Value": 131085,
+      "Attrs": []
+    },
+    {
+      "Name": "PROC_THREAD_ATTRIBUTE_CHILD_PROCESS_POLICY",
+      "Type": {
+        "Kind": "Native",
+        "Name": "UInt32"
+      },
+      "ValueType": "UInt32",
+      "Value": 131086,
+      "Attrs": []
+    },
+    {
+      "Name": "PROC_THREAD_ATTRIBUTE_ALL_APPLICATION_PACKAGES_POLICY",
+      "Type": {
+        "Kind": "Native",
+        "Name": "UInt32"
+      },
+      "ValueType": "UInt32",
+      "Value": 131087,
+      "Attrs": []
+    },
+    {
+      "Name": "PROC_THREAD_ATTRIBUTE_DESKTOP_APP_POLICY",
+      "Type": {
+        "Kind": "Native",
+        "Name": "UInt32"
+      },
+      "ValueType": "UInt32",
+      "Value": 131090,
+      "Attrs": []
+    },
+    {
+      "Name": "PROC_THREAD_ATTRIBUTE_MITIGATION_AUDIT_POLICY",
+      "Type": {
+        "Kind": "Native",
+        "Name": "UInt32"
+      },
+      "ValueType": "UInt32",
+      "Value": 131096,
+      "Attrs": []
+    },
+    {
+      "Name": "PROC_THREAD_ATTRIBUTE_COMPONENT_FILTER",
+      "Type": {
+        "Kind": "Native",
+        "Name": "UInt32"
+      },
+      "ValueType": "UInt32",
+      "Value": 131098,
+      "Attrs": []
     }
   ],
   "Types": [
@@ -2475,6 +2665,37 @@
       ]
     },
     {
+      "Name": "AVRT_PRIORITY",
+      "Architectures": [],
+      "Platform": null,
+      "Kind": "Enum",
+      "Flags": false,
+      "Scoped": false,
+      "Values": [
+        {
+          "Name": "AVRT_PRIORITY_VERYLOW",
+          "Value": -2
+        },
+        {
+          "Name": "AVRT_PRIORITY_LOW",
+          "Value": -1
+        },
+        {
+          "Name": "AVRT_PRIORITY_NORMAL",
+          "Value": 0
+        },
+        {
+          "Name": "AVRT_PRIORITY_HIGH",
+          "Value": 1
+        },
+        {
+          "Name": "AVRT_PRIORITY_CRITICAL",
+          "Value": 2
+        }
+      ],
+      "IntegerBase": "Int32"
+    },
+    {
       "Name": "PROCESS_DYNAMIC_EH_CONTINUATION_TARGET",
       "Architectures": [],
       "Platform": null,
@@ -3998,6 +4219,97 @@
       ],
       "NestedTypes": [
       ]
+    },
+    {
+      "Name": "PROC_THREAD_ATTRIBUTE_NUM",
+      "Architectures": [],
+      "Platform": null,
+      "Kind": "Enum",
+      "Flags": false,
+      "Scoped": false,
+      "Values": [
+        {
+          "Name": "ProcThreadAttributeParentProcess",
+          "Value": 0
+        },
+        {
+          "Name": "ProcThreadAttributeHandleList",
+          "Value": 2
+        },
+        {
+          "Name": "ProcThreadAttributeGroupAffinity",
+          "Value": 3
+        },
+        {
+          "Name": "ProcThreadAttributePreferredNode",
+          "Value": 4
+        },
+        {
+          "Name": "ProcThreadAttributeIdealProcessor",
+          "Value": 5
+        },
+        {
+          "Name": "ProcThreadAttributeUmsThread",
+          "Value": 6
+        },
+        {
+          "Name": "ProcThreadAttributeMitigationPolicy",
+          "Value": 7
+        },
+        {
+          "Name": "ProcThreadAttributeSecurityCapabilities",
+          "Value": 9
+        },
+        {
+          "Name": "ProcThreadAttributeProtectionLevel",
+          "Value": 11
+        },
+        {
+          "Name": "ProcThreadAttributeJobList",
+          "Value": 13
+        },
+        {
+          "Name": "ProcThreadAttributeChildProcessPolicy",
+          "Value": 14
+        },
+        {
+          "Name": "ProcThreadAttributeAllApplicationPackagesPolicy",
+          "Value": 15
+        },
+        {
+          "Name": "ProcThreadAttributeWin32kFilter",
+          "Value": 16
+        },
+        {
+          "Name": "ProcThreadAttributeSafeOpenPromptOriginClaim",
+          "Value": 17
+        },
+        {
+          "Name": "ProcThreadAttributeDesktopAppPolicy",
+          "Value": 18
+        },
+        {
+          "Name": "ProcThreadAttributePseudoConsole",
+          "Value": 22
+        },
+        {
+          "Name": "ProcThreadAttributeMitigationAuditPolicy",
+          "Value": 24
+        },
+        {
+          "Name": "ProcThreadAttributeMachineType",
+          "Value": 25
+        },
+        {
+          "Name": "ProcThreadAttributeComponentFilter",
+          "Value": 26
+        },
+        {
+          "Name": "ProcThreadAttributeEnableOptionalXStateFeatures",
+          "Value": 27
+        }
+      ],
+      "IntegerBase": "UInt32"
     },
     {
       "Name": "PEB_LDR_DATA",
@@ -13168,8 +13480,7 @@
             "Parents": []
           },
           "Attrs": [
-            "In",
-            "Out"
+            "In"
           ]
         },
         {
@@ -13385,8 +13696,7 @@
             "Parents": []
           },
           "Attrs": [
-            "In",
-            "Out"
+            "In"
           ]
         },
         {
@@ -13427,8 +13737,7 @@
             "Parents": []
           },
           "Attrs": [
-            "In",
-            "Out"
+            "In"
           ]
         },
         {
@@ -13469,8 +13778,7 @@
             "Parents": []
           },
           "Attrs": [
-            "In",
-            "Out"
+            "In"
           ]
         },
         {
@@ -13561,8 +13869,7 @@
             "Parents": []
           },
           "Attrs": [
-            "In",
-            "Out"
+            "In"
           ]
         }
       ]
@@ -13602,8 +13909,7 @@
             "Name": "IntPtr"
           },
           "Attrs": [
-            "In",
-            "Out"
+            "In"
           ]
         },
         {
@@ -13656,8 +13962,7 @@
             "Name": "IntPtr"
           },
           "Attrs": [
-            "In",
-            "Out"
+            "In"
           ]
         }
       ]
@@ -15814,6 +16119,761 @@
           "Attrs": [
             "Out",
             "Optional"
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "AvSetMmThreadCharacteristicsA",
+      "SetLastError": true,
+      "DllImport": "AVRT",
+      "ReturnType": {
+        "Kind": "ApiRef",
+        "Name": "HANDLE",
+        "TargetKind": "Default",
+        "Api": "Foundation",
+        "Parents": []
+      },
+      "ReturnAttrs": [],
+      "Architectures": [],
+      "Platform": "windows6.0.6000",
+      "Attrs": [],
+      "Params": [
+        {
+          "Name": "TaskName",
+          "Type": {
+            "Kind": "ApiRef",
+            "Name": "PSTR",
+            "TargetKind": "Default",
+            "Api": "Foundation",
+            "Parents": []
+          },
+          "Attrs": [
+            "In",
+            "Const"
+          ]
+        },
+        {
+          "Name": "TaskIndex",
+          "Type": {
+            "Kind": "PointerTo",
+            "Child": {
+              "Kind": "Native",
+              "Name": "UInt32"
+            }
+          },
+          "Attrs": [
+            "In",
+            "Out"
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "AvSetMmThreadCharacteristicsW",
+      "SetLastError": true,
+      "DllImport": "AVRT",
+      "ReturnType": {
+        "Kind": "ApiRef",
+        "Name": "HANDLE",
+        "TargetKind": "Default",
+        "Api": "Foundation",
+        "Parents": []
+      },
+      "ReturnAttrs": [],
+      "Architectures": [],
+      "Platform": "windows6.0.6000",
+      "Attrs": [],
+      "Params": [
+        {
+          "Name": "TaskName",
+          "Type": {
+            "Kind": "ApiRef",
+            "Name": "PWSTR",
+            "TargetKind": "Default",
+            "Api": "Foundation",
+            "Parents": []
+          },
+          "Attrs": [
+            "In",
+            "Const"
+          ]
+        },
+        {
+          "Name": "TaskIndex",
+          "Type": {
+            "Kind": "PointerTo",
+            "Child": {
+              "Kind": "Native",
+              "Name": "UInt32"
+            }
+          },
+          "Attrs": [
+            "In",
+            "Out"
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "AvSetMmMaxThreadCharacteristicsA",
+      "SetLastError": true,
+      "DllImport": "AVRT",
+      "ReturnType": {
+        "Kind": "ApiRef",
+        "Name": "HANDLE",
+        "TargetKind": "Default",
+        "Api": "Foundation",
+        "Parents": []
+      },
+      "ReturnAttrs": [],
+      "Architectures": [],
+      "Platform": "windows6.0.6000",
+      "Attrs": [],
+      "Params": [
+        {
+          "Name": "FirstTask",
+          "Type": {
+            "Kind": "ApiRef",
+            "Name": "PSTR",
+            "TargetKind": "Default",
+            "Api": "Foundation",
+            "Parents": []
+          },
+          "Attrs": [
+            "In",
+            "Const"
+          ]
+        },
+        {
+          "Name": "SecondTask",
+          "Type": {
+            "Kind": "ApiRef",
+            "Name": "PSTR",
+            "TargetKind": "Default",
+            "Api": "Foundation",
+            "Parents": []
+          },
+          "Attrs": [
+            "In",
+            "Const"
+          ]
+        },
+        {
+          "Name": "TaskIndex",
+          "Type": {
+            "Kind": "PointerTo",
+            "Child": {
+              "Kind": "Native",
+              "Name": "UInt32"
+            }
+          },
+          "Attrs": [
+            "In",
+            "Out"
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "AvSetMmMaxThreadCharacteristicsW",
+      "SetLastError": true,
+      "DllImport": "AVRT",
+      "ReturnType": {
+        "Kind": "ApiRef",
+        "Name": "HANDLE",
+        "TargetKind": "Default",
+        "Api": "Foundation",
+        "Parents": []
+      },
+      "ReturnAttrs": [],
+      "Architectures": [],
+      "Platform": "windows6.0.6000",
+      "Attrs": [],
+      "Params": [
+        {
+          "Name": "FirstTask",
+          "Type": {
+            "Kind": "ApiRef",
+            "Name": "PWSTR",
+            "TargetKind": "Default",
+            "Api": "Foundation",
+            "Parents": []
+          },
+          "Attrs": [
+            "In",
+            "Const"
+          ]
+        },
+        {
+          "Name": "SecondTask",
+          "Type": {
+            "Kind": "ApiRef",
+            "Name": "PWSTR",
+            "TargetKind": "Default",
+            "Api": "Foundation",
+            "Parents": []
+          },
+          "Attrs": [
+            "In",
+            "Const"
+          ]
+        },
+        {
+          "Name": "TaskIndex",
+          "Type": {
+            "Kind": "PointerTo",
+            "Child": {
+              "Kind": "Native",
+              "Name": "UInt32"
+            }
+          },
+          "Attrs": [
+            "In",
+            "Out"
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "AvRevertMmThreadCharacteristics",
+      "SetLastError": true,
+      "DllImport": "AVRT",
+      "ReturnType": {
+        "Kind": "ApiRef",
+        "Name": "BOOL",
+        "TargetKind": "Default",
+        "Api": "Foundation",
+        "Parents": []
+      },
+      "ReturnAttrs": [],
+      "Architectures": [],
+      "Platform": "windows6.0.6000",
+      "Attrs": [],
+      "Params": [
+        {
+          "Name": "AvrtHandle",
+          "Type": {
+            "Kind": "ApiRef",
+            "Name": "HANDLE",
+            "TargetKind": "Default",
+            "Api": "Foundation",
+            "Parents": []
+          },
+          "Attrs": [
+            "In"
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "AvSetMmThreadPriority",
+      "SetLastError": true,
+      "DllImport": "AVRT",
+      "ReturnType": {
+        "Kind": "ApiRef",
+        "Name": "BOOL",
+        "TargetKind": "Default",
+        "Api": "Foundation",
+        "Parents": []
+      },
+      "ReturnAttrs": [],
+      "Architectures": [],
+      "Platform": "windows6.0.6000",
+      "Attrs": [],
+      "Params": [
+        {
+          "Name": "AvrtHandle",
+          "Type": {
+            "Kind": "ApiRef",
+            "Name": "HANDLE",
+            "TargetKind": "Default",
+            "Api": "Foundation",
+            "Parents": []
+          },
+          "Attrs": [
+            "In"
+          ]
+        },
+        {
+          "Name": "Priority",
+          "Type": {
+            "Kind": "ApiRef",
+            "Name": "AVRT_PRIORITY",
+            "TargetKind": "Default",
+            "Api": "System.Threading",
+            "Parents": []
+          },
+          "Attrs": [
+            "In"
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "AvRtCreateThreadOrderingGroup",
+      "SetLastError": true,
+      "DllImport": "AVRT",
+      "ReturnType": {
+        "Kind": "ApiRef",
+        "Name": "BOOL",
+        "TargetKind": "Default",
+        "Api": "Foundation",
+        "Parents": []
+      },
+      "ReturnAttrs": [],
+      "Architectures": [],
+      "Platform": "windows6.0.6000",
+      "Attrs": [],
+      "Params": [
+        {
+          "Name": "Context",
+          "Type": {
+            "Kind": "PointerTo",
+            "Child": {
+              "Kind": "ApiRef",
+              "Name": "HANDLE",
+              "TargetKind": "Default",
+              "Api": "Foundation",
+              "Parents": []
+            }
+          },
+          "Attrs": [
+            "Out"
+          ]
+        },
+        {
+          "Name": "Period",
+          "Type": {
+            "Kind": "PointerTo",
+            "Child": {
+              "Kind": "ApiRef",
+              "Name": "LARGE_INTEGER",
+              "TargetKind": "Default",
+              "Api": "Foundation",
+              "Parents": []
+            }
+          },
+          "Attrs": [
+            "In"
+          ]
+        },
+        {
+          "Name": "ThreadOrderingGuid",
+          "Type": {
+            "Kind": "PointerTo",
+            "Child": {
+              "Kind": "Native",
+              "Name": "Guid"
+            }
+          },
+          "Attrs": [
+            "In",
+            "Out"
+          ]
+        },
+        {
+          "Name": "Timeout",
+          "Type": {
+            "Kind": "PointerTo",
+            "Child": {
+              "Kind": "ApiRef",
+              "Name": "LARGE_INTEGER",
+              "TargetKind": "Default",
+              "Api": "Foundation",
+              "Parents": []
+            }
+          },
+          "Attrs": [
+            "In",
+            "Optional"
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "AvRtCreateThreadOrderingGroupExA",
+      "SetLastError": true,
+      "DllImport": "AVRT",
+      "ReturnType": {
+        "Kind": "ApiRef",
+        "Name": "BOOL",
+        "TargetKind": "Default",
+        "Api": "Foundation",
+        "Parents": []
+      },
+      "ReturnAttrs": [],
+      "Architectures": [],
+      "Platform": "windows6.0.6000",
+      "Attrs": [],
+      "Params": [
+        {
+          "Name": "Context",
+          "Type": {
+            "Kind": "PointerTo",
+            "Child": {
+              "Kind": "ApiRef",
+              "Name": "HANDLE",
+              "TargetKind": "Default",
+              "Api": "Foundation",
+              "Parents": []
+            }
+          },
+          "Attrs": [
+            "Out"
+          ]
+        },
+        {
+          "Name": "Period",
+          "Type": {
+            "Kind": "PointerTo",
+            "Child": {
+              "Kind": "ApiRef",
+              "Name": "LARGE_INTEGER",
+              "TargetKind": "Default",
+              "Api": "Foundation",
+              "Parents": []
+            }
+          },
+          "Attrs": [
+            "In"
+          ]
+        },
+        {
+          "Name": "ThreadOrderingGuid",
+          "Type": {
+            "Kind": "PointerTo",
+            "Child": {
+              "Kind": "Native",
+              "Name": "Guid"
+            }
+          },
+          "Attrs": [
+            "In",
+            "Out"
+          ]
+        },
+        {
+          "Name": "Timeout",
+          "Type": {
+            "Kind": "PointerTo",
+            "Child": {
+              "Kind": "ApiRef",
+              "Name": "LARGE_INTEGER",
+              "TargetKind": "Default",
+              "Api": "Foundation",
+              "Parents": []
+            }
+          },
+          "Attrs": [
+            "In",
+            "Optional"
+          ]
+        },
+        {
+          "Name": "TaskName",
+          "Type": {
+            "Kind": "ApiRef",
+            "Name": "PSTR",
+            "TargetKind": "Default",
+            "Api": "Foundation",
+            "Parents": []
+          },
+          "Attrs": [
+            "In",
+            "Const"
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "AvRtCreateThreadOrderingGroupExW",
+      "SetLastError": true,
+      "DllImport": "AVRT",
+      "ReturnType": {
+        "Kind": "ApiRef",
+        "Name": "BOOL",
+        "TargetKind": "Default",
+        "Api": "Foundation",
+        "Parents": []
+      },
+      "ReturnAttrs": [],
+      "Architectures": [],
+      "Platform": "windows6.0.6000",
+      "Attrs": [],
+      "Params": [
+        {
+          "Name": "Context",
+          "Type": {
+            "Kind": "PointerTo",
+            "Child": {
+              "Kind": "ApiRef",
+              "Name": "HANDLE",
+              "TargetKind": "Default",
+              "Api": "Foundation",
+              "Parents": []
+            }
+          },
+          "Attrs": [
+            "Out"
+          ]
+        },
+        {
+          "Name": "Period",
+          "Type": {
+            "Kind": "PointerTo",
+            "Child": {
+              "Kind": "ApiRef",
+              "Name": "LARGE_INTEGER",
+              "TargetKind": "Default",
+              "Api": "Foundation",
+              "Parents": []
+            }
+          },
+          "Attrs": [
+            "In"
+          ]
+        },
+        {
+          "Name": "ThreadOrderingGuid",
+          "Type": {
+            "Kind": "PointerTo",
+            "Child": {
+              "Kind": "Native",
+              "Name": "Guid"
+            }
+          },
+          "Attrs": [
+            "In",
+            "Out"
+          ]
+        },
+        {
+          "Name": "Timeout",
+          "Type": {
+            "Kind": "PointerTo",
+            "Child": {
+              "Kind": "ApiRef",
+              "Name": "LARGE_INTEGER",
+              "TargetKind": "Default",
+              "Api": "Foundation",
+              "Parents": []
+            }
+          },
+          "Attrs": [
+            "In",
+            "Optional"
+          ]
+        },
+        {
+          "Name": "TaskName",
+          "Type": {
+            "Kind": "ApiRef",
+            "Name": "PWSTR",
+            "TargetKind": "Default",
+            "Api": "Foundation",
+            "Parents": []
+          },
+          "Attrs": [
+            "In",
+            "Const"
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "AvRtJoinThreadOrderingGroup",
+      "SetLastError": true,
+      "DllImport": "AVRT",
+      "ReturnType": {
+        "Kind": "ApiRef",
+        "Name": "BOOL",
+        "TargetKind": "Default",
+        "Api": "Foundation",
+        "Parents": []
+      },
+      "ReturnAttrs": [],
+      "Architectures": [],
+      "Platform": "windows6.0.6000",
+      "Attrs": [],
+      "Params": [
+        {
+          "Name": "Context",
+          "Type": {
+            "Kind": "PointerTo",
+            "Child": {
+              "Kind": "ApiRef",
+              "Name": "HANDLE",
+              "TargetKind": "Default",
+              "Api": "Foundation",
+              "Parents": []
+            }
+          },
+          "Attrs": [
+            "Out"
+          ]
+        },
+        {
+          "Name": "ThreadOrderingGuid",
+          "Type": {
+            "Kind": "PointerTo",
+            "Child": {
+              "Kind": "Native",
+              "Name": "Guid"
+            }
+          },
+          "Attrs": [
+            "In"
+          ]
+        },
+        {
+          "Name": "Before",
+          "Type": {
+            "Kind": "ApiRef",
+            "Name": "BOOL",
+            "TargetKind": "Default",
+            "Api": "Foundation",
+            "Parents": []
+          },
+          "Attrs": [
+            "In"
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "AvRtWaitOnThreadOrderingGroup",
+      "SetLastError": true,
+      "DllImport": "AVRT",
+      "ReturnType": {
+        "Kind": "ApiRef",
+        "Name": "BOOL",
+        "TargetKind": "Default",
+        "Api": "Foundation",
+        "Parents": []
+      },
+      "ReturnAttrs": [],
+      "Architectures": [],
+      "Platform": "windows6.0.6000",
+      "Attrs": [],
+      "Params": [
+        {
+          "Name": "Context",
+          "Type": {
+            "Kind": "ApiRef",
+            "Name": "HANDLE",
+            "TargetKind": "Default",
+            "Api": "Foundation",
+            "Parents": []
+          },
+          "Attrs": [
+            "In"
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "AvRtLeaveThreadOrderingGroup",
+      "SetLastError": true,
+      "DllImport": "AVRT",
+      "ReturnType": {
+        "Kind": "ApiRef",
+        "Name": "BOOL",
+        "TargetKind": "Default",
+        "Api": "Foundation",
+        "Parents": []
+      },
+      "ReturnAttrs": [],
+      "Architectures": [],
+      "Platform": "windows6.0.6000",
+      "Attrs": [],
+      "Params": [
+        {
+          "Name": "Context",
+          "Type": {
+            "Kind": "ApiRef",
+            "Name": "HANDLE",
+            "TargetKind": "Default",
+            "Api": "Foundation",
+            "Parents": []
+          },
+          "Attrs": [
+            "In"
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "AvRtDeleteThreadOrderingGroup",
+      "SetLastError": true,
+      "DllImport": "AVRT",
+      "ReturnType": {
+        "Kind": "ApiRef",
+        "Name": "BOOL",
+        "TargetKind": "Default",
+        "Api": "Foundation",
+        "Parents": []
+      },
+      "ReturnAttrs": [],
+      "Architectures": [],
+      "Platform": "windows6.0.6000",
+      "Attrs": [],
+      "Params": [
+        {
+          "Name": "Context",
+          "Type": {
+            "Kind": "ApiRef",
+            "Name": "HANDLE",
+            "TargetKind": "Default",
+            "Api": "Foundation",
+            "Parents": []
+          },
+          "Attrs": [
+            "In"
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "AvQuerySystemResponsiveness",
+      "SetLastError": true,
+      "DllImport": "AVRT",
+      "ReturnType": {
+        "Kind": "ApiRef",
+        "Name": "BOOL",
+        "TargetKind": "Default",
+        "Api": "Foundation",
+        "Parents": []
+      },
+      "ReturnAttrs": [],
+      "Architectures": [],
+      "Platform": "windows6.0.6000",
+      "Attrs": [],
+      "Params": [
+        {
+          "Name": "AvrtHandle",
+          "Type": {
+            "Kind": "ApiRef",
+            "Name": "HANDLE",
+            "TargetKind": "Default",
+            "Api": "Foundation",
+            "Parents": []
+          },
+          "Attrs": [
+            "In"
+          ]
+        },
+        {
+          "Name": "SystemResponsivenessValue",
+          "Type": {
+            "Kind": "PointerTo",
+            "Child": {
+              "Kind": "Native",
+              "Name": "UInt32"
+            }
+          },
+          "Attrs": [
+            "Out"
           ]
         }
       ]
@@ -18919,6 +19979,9 @@
     "CreatePrivateNamespace",
     "OpenPrivateNamespace",
     "CreateBoundaryDescriptor",
+    "AvSetMmThreadCharacteristics",
+    "AvSetMmMaxThreadCharacteristics",
+    "AvRtCreateThreadOrderingGroupEx",
     "QueryFullProcessImageName"
   ]
 }

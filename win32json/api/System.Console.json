@@ -1662,7 +1662,7 @@
   "Functions": [
     {
       "Name": "AllocConsole",
-      "SetLastError": false,
+      "SetLastError": true,
       "DllImport": "KERNEL32",
       "ReturnType": {
         "Kind": "ApiRef",
@@ -1680,7 +1680,7 @@
     },
     {
       "Name": "FreeConsole",
-      "SetLastError": false,
+      "SetLastError": true,
       "DllImport": "KERNEL32",
       "ReturnType": {
         "Kind": "ApiRef",
@@ -1698,7 +1698,7 @@
     },
     {
       "Name": "AttachConsole",
-      "SetLastError": false,
+      "SetLastError": true,
       "DllImport": "KERNEL32",
       "ReturnType": {
         "Kind": "ApiRef",
@@ -1726,7 +1726,7 @@
     },
     {
       "Name": "GetConsoleCP",
-      "SetLastError": false,
+      "SetLastError": true,
       "DllImport": "KERNEL32",
       "ReturnType": {
         "Kind": "Native",
@@ -1741,7 +1741,7 @@
     },
     {
       "Name": "GetConsoleOutputCP",
-      "SetLastError": false,
+      "SetLastError": true,
       "DllImport": "KERNEL32",
       "ReturnType": {
         "Kind": "Native",
@@ -1756,7 +1756,7 @@
     },
     {
       "Name": "GetConsoleMode",
-      "SetLastError": false,
+      "SetLastError": true,
       "DllImport": "KERNEL32",
       "ReturnType": {
         "Kind": "ApiRef",
@@ -1803,7 +1803,7 @@
     },
     {
       "Name": "SetConsoleMode",
-      "SetLastError": false,
+      "SetLastError": true,
       "DllImport": "KERNEL32",
       "ReturnType": {
         "Kind": "ApiRef",
@@ -1847,7 +1847,7 @@
     },
     {
       "Name": "GetNumberOfConsoleInputEvents",
-      "SetLastError": false,
+      "SetLastError": true,
       "DllImport": "KERNEL32",
       "ReturnType": {
         "Kind": "ApiRef",
@@ -1891,7 +1891,7 @@
     },
     {
       "Name": "ReadConsoleInputA",
-      "SetLastError": false,
+      "SetLastError": true,
       "DllImport": "KERNEL32",
       "ReturnType": {
         "Kind": "ApiRef",
@@ -1964,7 +1964,7 @@
     },
     {
       "Name": "ReadConsoleInputW",
-      "SetLastError": false,
+      "SetLastError": true,
       "DllImport": "KERNEL32",
       "ReturnType": {
         "Kind": "ApiRef",
@@ -2037,7 +2037,7 @@
     },
     {
       "Name": "PeekConsoleInputA",
-      "SetLastError": false,
+      "SetLastError": true,
       "DllImport": "KERNEL32",
       "ReturnType": {
         "Kind": "ApiRef",
@@ -2110,7 +2110,7 @@
     },
     {
       "Name": "PeekConsoleInputW",
-      "SetLastError": false,
+      "SetLastError": true,
       "DllImport": "KERNEL32",
       "ReturnType": {
         "Kind": "ApiRef",
@@ -2183,7 +2183,7 @@
     },
     {
       "Name": "ReadConsoleA",
-      "SetLastError": false,
+      "SetLastError": true,
       "DllImport": "KERNEL32",
       "ReturnType": {
         "Kind": "ApiRef",
@@ -2267,7 +2267,7 @@
     },
     {
       "Name": "ReadConsoleW",
-      "SetLastError": false,
+      "SetLastError": true,
       "DllImport": "KERNEL32",
       "ReturnType": {
         "Kind": "ApiRef",
@@ -2351,7 +2351,7 @@
     },
     {
       "Name": "WriteConsoleA",
-      "SetLastError": false,
+      "SetLastError": true,
       "DllImport": "KERNEL32",
       "ReturnType": {
         "Kind": "ApiRef",
@@ -2439,7 +2439,7 @@
     },
     {
       "Name": "WriteConsoleW",
-      "SetLastError": false,
+      "SetLastError": true,
       "DllImport": "KERNEL32",
       "ReturnType": {
         "Kind": "ApiRef",
@@ -2527,7 +2527,7 @@
     },
     {
       "Name": "SetConsoleCtrlHandler",
-      "SetLastError": false,
+      "SetLastError": true,
       "DllImport": "KERNEL32",
       "ReturnType": {
         "Kind": "ApiRef",
@@ -2727,7 +2727,7 @@
     },
     {
       "Name": "FillConsoleOutputCharacterA",
-      "SetLastError": false,
+      "SetLastError": true,
       "DllImport": "KERNEL32",
       "ReturnType": {
         "Kind": "ApiRef",
@@ -2807,7 +2807,7 @@
     },
     {
       "Name": "FillConsoleOutputCharacterW",
-      "SetLastError": false,
+      "SetLastError": true,
       "DllImport": "KERNEL32",
       "ReturnType": {
         "Kind": "ApiRef",
@@ -2884,7 +2884,7 @@
     },
     {
       "Name": "FillConsoleOutputAttribute",
-      "SetLastError": false,
+      "SetLastError": true,
       "DllImport": "KERNEL32",
       "ReturnType": {
         "Kind": "ApiRef",
@@ -2961,7 +2961,7 @@
     },
     {
       "Name": "GenerateConsoleCtrlEvent",
-      "SetLastError": false,
+      "SetLastError": true,
       "DllImport": "KERNEL32",
       "ReturnType": {
         "Kind": "ApiRef",
@@ -2999,7 +2999,7 @@
     },
     {
       "Name": "CreateConsoleScreenBuffer",
-      "SetLastError": false,
+      "SetLastError": true,
       "DllImport": "KERNEL32",
       "ReturnType": {
         "Kind": "ApiRef",
@@ -3080,7 +3080,7 @@
     },
     {
       "Name": "SetConsoleActiveScreenBuffer",
-      "SetLastError": false,
+      "SetLastError": true,
       "DllImport": "KERNEL32",
       "ReturnType": {
         "Kind": "ApiRef",
@@ -3111,7 +3111,7 @@
     },
     {
       "Name": "FlushConsoleInputBuffer",
-      "SetLastError": false,
+      "SetLastError": true,
       "DllImport": "KERNEL32",
       "ReturnType": {
         "Kind": "ApiRef",
@@ -3142,7 +3142,7 @@
     },
     {
       "Name": "SetConsoleCP",
-      "SetLastError": false,
+      "SetLastError": true,
       "DllImport": "KERNEL32",
       "ReturnType": {
         "Kind": "ApiRef",
@@ -3170,7 +3170,7 @@
     },
     {
       "Name": "SetConsoleOutputCP",
-      "SetLastError": false,
+      "SetLastError": true,
       "DllImport": "KERNEL32",
       "ReturnType": {
         "Kind": "ApiRef",
@@ -3198,7 +3198,7 @@
     },
     {
       "Name": "GetConsoleCursorInfo",
-      "SetLastError": false,
+      "SetLastError": true,
       "DllImport": "KERNEL32",
       "ReturnType": {
         "Kind": "ApiRef",
@@ -3245,7 +3245,7 @@
     },
     {
       "Name": "SetConsoleCursorInfo",
-      "SetLastError": false,
+      "SetLastError": true,
       "DllImport": "KERNEL32",
       "ReturnType": {
         "Kind": "ApiRef",
@@ -3293,7 +3293,7 @@
     },
     {
       "Name": "GetConsoleScreenBufferInfo",
-      "SetLastError": false,
+      "SetLastError": true,
       "DllImport": "KERNEL32",
       "ReturnType": {
         "Kind": "ApiRef",
@@ -3340,7 +3340,7 @@
     },
     {
       "Name": "GetConsoleScreenBufferInfoEx",
-      "SetLastError": false,
+      "SetLastError": true,
       "DllImport": "KERNEL32",
       "ReturnType": {
         "Kind": "ApiRef",
@@ -3388,7 +3388,7 @@
     },
     {
       "Name": "SetConsoleScreenBufferInfoEx",
-      "SetLastError": false,
+      "SetLastError": true,
       "DllImport": "KERNEL32",
       "ReturnType": {
         "Kind": "ApiRef",
@@ -3435,7 +3435,7 @@
     },
     {
       "Name": "SetConsoleScreenBufferSize",
-      "SetLastError": false,
+      "SetLastError": true,
       "DllImport": "KERNEL32",
       "ReturnType": {
         "Kind": "ApiRef",
@@ -3479,7 +3479,7 @@
     },
     {
       "Name": "SetConsoleCursorPosition",
-      "SetLastError": false,
+      "SetLastError": true,
       "DllImport": "KERNEL32",
       "ReturnType": {
         "Kind": "ApiRef",
@@ -3523,7 +3523,7 @@
     },
     {
       "Name": "GetLargestConsoleWindowSize",
-      "SetLastError": false,
+      "SetLastError": true,
       "DllImport": "KERNEL32",
       "ReturnType": {
         "Kind": "ApiRef",
@@ -3554,7 +3554,7 @@
     },
     {
       "Name": "SetConsoleTextAttribute",
-      "SetLastError": false,
+      "SetLastError": true,
       "DllImport": "KERNEL32",
       "ReturnType": {
         "Kind": "ApiRef",
@@ -3595,7 +3595,7 @@
     },
     {
       "Name": "SetConsoleWindowInfo",
-      "SetLastError": false,
+      "SetLastError": true,
       "DllImport": "KERNEL32",
       "ReturnType": {
         "Kind": "ApiRef",
@@ -3656,7 +3656,7 @@
     },
     {
       "Name": "WriteConsoleOutputCharacterA",
-      "SetLastError": false,
+      "SetLastError": true,
       "DllImport": "KERNEL32",
       "ReturnType": {
         "Kind": "ApiRef",
@@ -3740,7 +3740,7 @@
     },
     {
       "Name": "WriteConsoleOutputCharacterW",
-      "SetLastError": false,
+      "SetLastError": true,
       "DllImport": "KERNEL32",
       "ReturnType": {
         "Kind": "ApiRef",
@@ -3824,7 +3824,7 @@
     },
     {
       "Name": "WriteConsoleOutputAttribute",
-      "SetLastError": false,
+      "SetLastError": true,
       "DllImport": "KERNEL32",
       "ReturnType": {
         "Kind": "ApiRef",
@@ -3908,7 +3908,7 @@
     },
     {
       "Name": "ReadConsoleOutputCharacterA",
-      "SetLastError": false,
+      "SetLastError": true,
       "DllImport": "KERNEL32",
       "ReturnType": {
         "Kind": "ApiRef",
@@ -3991,7 +3991,7 @@
     },
     {
       "Name": "ReadConsoleOutputCharacterW",
-      "SetLastError": false,
+      "SetLastError": true,
       "DllImport": "KERNEL32",
       "ReturnType": {
         "Kind": "ApiRef",
@@ -4074,7 +4074,7 @@
     },
     {
       "Name": "ReadConsoleOutputAttribute",
-      "SetLastError": false,
+      "SetLastError": true,
       "DllImport": "KERNEL32",
       "ReturnType": {
         "Kind": "ApiRef",
@@ -4157,7 +4157,7 @@
     },
     {
       "Name": "WriteConsoleInputA",
-      "SetLastError": false,
+      "SetLastError": true,
       "DllImport": "KERNEL32",
       "ReturnType": {
         "Kind": "ApiRef",
@@ -4231,7 +4231,7 @@
     },
     {
       "Name": "WriteConsoleInputW",
-      "SetLastError": false,
+      "SetLastError": true,
       "DllImport": "KERNEL32",
       "ReturnType": {
         "Kind": "ApiRef",
@@ -4305,7 +4305,7 @@
     },
     {
       "Name": "ScrollConsoleScreenBufferA",
-      "SetLastError": false,
+      "SetLastError": true,
       "DllImport": "KERNEL32",
       "ReturnType": {
         "Kind": "ApiRef",
@@ -4401,7 +4401,7 @@
     },
     {
       "Name": "ScrollConsoleScreenBufferW",
-      "SetLastError": false,
+      "SetLastError": true,
       "DllImport": "KERNEL32",
       "ReturnType": {
         "Kind": "ApiRef",
@@ -4497,7 +4497,7 @@
     },
     {
       "Name": "WriteConsoleOutputA",
-      "SetLastError": false,
+      "SetLastError": true,
       "DllImport": "KERNEL32",
       "ReturnType": {
         "Kind": "ApiRef",
@@ -4588,7 +4588,7 @@
     },
     {
       "Name": "WriteConsoleOutputW",
-      "SetLastError": false,
+      "SetLastError": true,
       "DllImport": "KERNEL32",
       "ReturnType": {
         "Kind": "ApiRef",
@@ -4679,7 +4679,7 @@
     },
     {
       "Name": "ReadConsoleOutputA",
-      "SetLastError": false,
+      "SetLastError": true,
       "DllImport": "KERNEL32",
       "ReturnType": {
         "Kind": "ApiRef",
@@ -4769,7 +4769,7 @@
     },
     {
       "Name": "ReadConsoleOutputW",
-      "SetLastError": false,
+      "SetLastError": true,
       "DllImport": "KERNEL32",
       "ReturnType": {
         "Kind": "ApiRef",
@@ -4859,7 +4859,7 @@
     },
     {
       "Name": "GetConsoleTitleA",
-      "SetLastError": false,
+      "SetLastError": true,
       "DllImport": "KERNEL32",
       "ReturnType": {
         "Kind": "Native",
@@ -4900,7 +4900,7 @@
     },
     {
       "Name": "GetConsoleTitleW",
-      "SetLastError": false,
+      "SetLastError": true,
       "DllImport": "KERNEL32",
       "ReturnType": {
         "Kind": "Native",
@@ -4941,7 +4941,7 @@
     },
     {
       "Name": "GetConsoleOriginalTitleA",
-      "SetLastError": false,
+      "SetLastError": true,
       "DllImport": "KERNEL32",
       "ReturnType": {
         "Kind": "Native",
@@ -4982,7 +4982,7 @@
     },
     {
       "Name": "GetConsoleOriginalTitleW",
-      "SetLastError": false,
+      "SetLastError": true,
       "DllImport": "KERNEL32",
       "ReturnType": {
         "Kind": "Native",
@@ -5023,7 +5023,7 @@
     },
     {
       "Name": "SetConsoleTitleA",
-      "SetLastError": false,
+      "SetLastError": true,
       "DllImport": "KERNEL32",
       "ReturnType": {
         "Kind": "ApiRef",
@@ -5055,7 +5055,7 @@
     },
     {
       "Name": "SetConsoleTitleW",
-      "SetLastError": false,
+      "SetLastError": true,
       "DllImport": "KERNEL32",
       "ReturnType": {
         "Kind": "ApiRef",
@@ -5087,7 +5087,7 @@
     },
     {
       "Name": "GetNumberOfConsoleMouseButtons",
-      "SetLastError": false,
+      "SetLastError": true,
       "DllImport": "KERNEL32",
       "ReturnType": {
         "Kind": "ApiRef",
@@ -5118,7 +5118,7 @@
     },
     {
       "Name": "GetConsoleFontSize",
-      "SetLastError": false,
+      "SetLastError": true,
       "DllImport": "KERNEL32",
       "ReturnType": {
         "Kind": "ApiRef",
@@ -5159,7 +5159,7 @@
     },
     {
       "Name": "GetCurrentConsoleFont",
-      "SetLastError": false,
+      "SetLastError": true,
       "DllImport": "KERNEL32",
       "ReturnType": {
         "Kind": "ApiRef",
@@ -5219,7 +5219,7 @@
     },
     {
       "Name": "GetCurrentConsoleFontEx",
-      "SetLastError": false,
+      "SetLastError": true,
       "DllImport": "KERNEL32",
       "ReturnType": {
         "Kind": "ApiRef",
@@ -5279,7 +5279,7 @@
     },
     {
       "Name": "SetCurrentConsoleFontEx",
-      "SetLastError": false,
+      "SetLastError": true,
       "DllImport": "KERNEL32",
       "ReturnType": {
         "Kind": "ApiRef",
@@ -5339,7 +5339,7 @@
     },
     {
       "Name": "GetConsoleSelectionInfo",
-      "SetLastError": false,
+      "SetLastError": true,
       "DllImport": "KERNEL32",
       "ReturnType": {
         "Kind": "ApiRef",
@@ -5373,7 +5373,7 @@
     },
     {
       "Name": "GetConsoleHistoryInfo",
-      "SetLastError": false,
+      "SetLastError": true,
       "DllImport": "KERNEL32",
       "ReturnType": {
         "Kind": "ApiRef",
@@ -5407,7 +5407,7 @@
     },
     {
       "Name": "SetConsoleHistoryInfo",
-      "SetLastError": false,
+      "SetLastError": true,
       "DllImport": "KERNEL32",
       "ReturnType": {
         "Kind": "ApiRef",
@@ -5441,7 +5441,7 @@
     },
     {
       "Name": "GetConsoleDisplayMode",
-      "SetLastError": false,
+      "SetLastError": true,
       "DllImport": "KERNEL32",
       "ReturnType": {
         "Kind": "ApiRef",
@@ -5472,7 +5472,7 @@
     },
     {
       "Name": "SetConsoleDisplayMode",
-      "SetLastError": false,
+      "SetLastError": true,
       "DllImport": "KERNEL32",
       "ReturnType": {
         "Kind": "ApiRef",
@@ -5548,7 +5548,7 @@
     },
     {
       "Name": "AddConsoleAliasA",
-      "SetLastError": false,
+      "SetLastError": true,
       "DllImport": "KERNEL32",
       "ReturnType": {
         "Kind": "ApiRef",
@@ -5605,7 +5605,7 @@
     },
     {
       "Name": "AddConsoleAliasW",
-      "SetLastError": false,
+      "SetLastError": true,
       "DllImport": "KERNEL32",
       "ReturnType": {
         "Kind": "ApiRef",
@@ -5662,7 +5662,7 @@
     },
     {
       "Name": "GetConsoleAliasA",
-      "SetLastError": false,
+      "SetLastError": true,
       "DllImport": "KERNEL32",
       "ReturnType": {
         "Kind": "Native",
@@ -5729,7 +5729,7 @@
     },
     {
       "Name": "GetConsoleAliasW",
-      "SetLastError": false,
+      "SetLastError": true,
       "DllImport": "KERNEL32",
       "ReturnType": {
         "Kind": "Native",
@@ -5882,7 +5882,7 @@
     },
     {
       "Name": "GetConsoleAliasesA",
-      "SetLastError": false,
+      "SetLastError": true,
       "DllImport": "KERNEL32",
       "ReturnType": {
         "Kind": "Native",
@@ -5936,7 +5936,7 @@
     },
     {
       "Name": "GetConsoleAliasesW",
-      "SetLastError": false,
+      "SetLastError": true,
       "DllImport": "KERNEL32",
       "ReturnType": {
         "Kind": "Native",
@@ -5990,7 +5990,7 @@
     },
     {
       "Name": "GetConsoleAliasExesA",
-      "SetLastError": false,
+      "SetLastError": true,
       "DllImport": "KERNEL32",
       "ReturnType": {
         "Kind": "Native",
@@ -6031,7 +6031,7 @@
     },
     {
       "Name": "GetConsoleAliasExesW",
-      "SetLastError": false,
+      "SetLastError": true,
       "DllImport": "KERNEL32",
       "ReturnType": {
         "Kind": "Native",
@@ -6376,7 +6376,7 @@
     },
     {
       "Name": "GetConsoleProcessList",
-      "SetLastError": false,
+      "SetLastError": true,
       "DllImport": "KERNEL32",
       "ReturnType": {
         "Kind": "Native",
@@ -6417,7 +6417,7 @@
     },
     {
       "Name": "GetStdHandle",
-      "SetLastError": false,
+      "SetLastError": true,
       "DllImport": "KERNEL32",
       "ReturnType": {
         "Kind": "ApiRef",
@@ -6448,7 +6448,7 @@
     },
     {
       "Name": "SetStdHandle",
-      "SetLastError": false,
+      "SetLastError": true,
       "DllImport": "KERNEL32",
       "ReturnType": {
         "Kind": "ApiRef",

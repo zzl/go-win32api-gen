@@ -107,6 +107,10 @@ func buildConstValue(c *jsonmodel.Constant) string {
 	if c.Type.Name == "Guid" {
 		return utils.BuildGuidExpr(c.Value.Str)
 	}
+	//?
+	if c.Type.Name == "DEVPROPKEY" {
+		return ""
+	}
 	sValue := c.Value.String()
 
 	if c.Type.IsUnsigned() {

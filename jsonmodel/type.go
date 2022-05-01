@@ -163,7 +163,7 @@ func (this *Type) IsUnsigned() bool {
 		return this.Def.IsUnsigned()
 	} else if this.Kind == "ApiRef" {
 		//special
-		if this.Name == "HKL" {
+		if this.Name == "HKL" || this.Name == "DEVPROPKEY" {
 			return true
 		}
 		return this.GetRefType().IsUnsigned()

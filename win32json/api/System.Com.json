@@ -71,6 +71,16 @@
       "Attrs": []
     },
     {
+      "Name": "_CRT_INTERNAL_COMBASE_SYMBOL_PREFIX",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "_",
+      "Attrs": []
+    },
+    {
       "Name": "COM_RIGHTS_EXECUTE",
       "Type": {
         "Kind": "Native",
@@ -946,7 +956,7 @@
           ],
           "NestedTypes": [
             {
-              "Name": "_ByName_e__Struct",
+              "Name": "_ByObjectId_e__Struct",
               "Architectures": [],
               "Platform": null,
               "Kind": "Struct",
@@ -954,13 +964,10 @@
               "PackingSize": 0,
               "Fields": [
                 {
-                  "Name": "pPackageName",
+                  "Name": "ObjectId",
                   "Type": {
-                    "Kind": "ApiRef",
-                    "Name": "PWSTR",
-                    "TargetKind": "Default",
-                    "Api": "Foundation",
-                    "Parents": []
+                    "Kind": "Native",
+                    "Name": "Guid"
                   },
                   "Attrs": []
                 },
@@ -977,7 +984,7 @@
               ]
             },
             {
-              "Name": "_ByObjectId_e__Struct",
+              "Name": "_ByName_e__Struct",
               "Architectures": [],
               "Platform": null,
               "Kind": "Struct",
@@ -985,10 +992,13 @@
               "PackingSize": 0,
               "Fields": [
                 {
-                  "Name": "ObjectId",
+                  "Name": "pPackageName",
                   "Type": {
-                    "Kind": "Native",
-                    "Name": "Guid"
+                    "Kind": "ApiRef",
+                    "Name": "PWSTR",
+                    "TargetKind": "Default",
+                    "Api": "Foundation",
+                    "Parents": []
                   },
                   "Attrs": []
                 },
@@ -3740,8 +3750,11 @@
             {
               "Name": "grfCommitFlags",
               "Type": {
-                "Kind": "Native",
-                "Name": "UInt32"
+                "Kind": "ApiRef",
+                "Name": "STGC",
+                "TargetKind": "Default",
+                "Api": "System.Com.StructuredStorage",
+                "Parents": []
               },
               "Attrs": [
                 "In"
@@ -6119,8 +6132,7 @@
                 }
               },
               "Attrs": [
-                "Out",
-                "Optional"
+                "Out"
               ]
             },
             {
@@ -6428,8 +6440,7 @@
                 }
               },
               "Attrs": [
-                "Out",
-                "Optional"
+                "Out"
               ]
             },
             {
@@ -27514,14 +27525,11 @@
           "Type": {
             "Kind": "PointerTo",
             "Child": {
-              "Kind": "PointerTo",
-              "Child": {
-                "Kind": "ApiRef",
-                "Name": "SECURITY_DESCRIPTOR",
-                "TargetKind": "Default",
-                "Api": "Security",
-                "Parents": []
-              }
+              "Kind": "ApiRef",
+              "Name": "PSECURITY_DESCRIPTOR",
+              "TargetKind": "Default",
+              "Api": "Security",
+              "Parents": []
             }
           },
           "Attrs": [
@@ -29703,8 +29711,11 @@
         {
           "Name": "flags",
           "Type": {
-            "Kind": "Native",
-            "Name": "UInt32"
+            "Kind": "ApiRef",
+            "Name": "REGCLS",
+            "TargetKind": "Default",
+            "Api": "System.Com",
+            "Parents": []
           },
           "Attrs": [
             "In"
@@ -30215,14 +30226,11 @@
         {
           "Name": "pSecDesc",
           "Type": {
-            "Kind": "PointerTo",
-            "Child": {
-              "Kind": "ApiRef",
-              "Name": "SECURITY_DESCRIPTOR",
-              "TargetKind": "Default",
-              "Api": "Security",
-              "Parents": []
-            }
+            "Kind": "ApiRef",
+            "Name": "PSECURITY_DESCRIPTOR",
+            "TargetKind": "Default",
+            "Api": "Security",
+            "Parents": []
           },
           "Attrs": [
             "In",
@@ -30242,10 +30250,7 @@
         {
           "Name": "asAuthSvc",
           "Type": {
-            "Kind": "LPArray",
-            "NullNullTerm": false,
-            "CountConst": -1,
-            "CountParamIndex": 1,
+            "Kind": "PointerTo",
             "Child": {
               "Kind": "ApiRef",
               "Name": "SOLE_AUTHENTICATION_SERVICE",

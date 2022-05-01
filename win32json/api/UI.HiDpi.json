@@ -531,8 +531,11 @@
         {
           "Name": "dwStyle",
           "Type": {
-            "Kind": "Native",
-            "Name": "UInt32"
+            "Kind": "ApiRef",
+            "Name": "WINDOW_STYLE",
+            "TargetKind": "Default",
+            "Api": "UI.WindowsAndMessaging",
+            "Parents": []
           },
           "Attrs": [
             "In"
@@ -554,8 +557,11 @@
         {
           "Name": "dwExStyle",
           "Type": {
-            "Kind": "Native",
-            "Name": "UInt32"
+            "Kind": "ApiRef",
+            "Name": "WINDOW_EX_STYLE",
+            "TargetKind": "Default",
+            "Api": "UI.WindowsAndMessaging",
+            "Parents": []
           },
           "Attrs": [
             "In"

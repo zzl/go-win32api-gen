@@ -41,6 +41,46 @@
       "Attrs": []
     },
     {
+      "Name": "WM_CONTEXTMENU",
+      "Type": {
+        "Kind": "Native",
+        "Name": "UInt32"
+      },
+      "ValueType": "UInt32",
+      "Value": 123,
+      "Attrs": []
+    },
+    {
+      "Name": "WM_UNICHAR",
+      "Type": {
+        "Kind": "Native",
+        "Name": "UInt32"
+      },
+      "ValueType": "UInt32",
+      "Value": 265,
+      "Attrs": []
+    },
+    {
+      "Name": "WM_PRINTCLIENT",
+      "Type": {
+        "Kind": "Native",
+        "Name": "UInt32"
+      },
+      "ValueType": "UInt32",
+      "Value": 792,
+      "Attrs": []
+    },
+    {
+      "Name": "WM_NOTIFY",
+      "Type": {
+        "Kind": "Native",
+        "Name": "UInt32"
+      },
+      "ValueType": "UInt32",
+      "Value": 78,
+      "Attrs": []
+    },
+    {
       "Name": "RT_CURSOR",
       "Type": {
         "Kind": "ApiRef",
@@ -6144,16 +6184,6 @@
       },
       "ValueType": "UInt32",
       "Value": 8194,
-      "Attrs": []
-    },
-    {
-      "Name": "SM_SYSTEMDOCKED",
-      "Type": {
-        "Kind": "Native",
-        "Name": "UInt32"
-      },
-      "ValueType": "UInt32",
-      "Value": 8196,
       "Attrs": []
     },
     {
@@ -17538,7 +17568,7 @@
           "Value": 23
         },
         {
-          "Name": "SM_SYSTEMDOCKED_",
+          "Name": "SM_SYSTEMDOCKED",
           "Value": 8196
         },
         {
@@ -24258,14 +24288,11 @@
         {
           "Name": "lpBuffer",
           "Type": {
-            "Kind": "LPArray",
-            "NullNullTerm": false,
-            "CountConst": -1,
-            "CountParamIndex": 3,
-            "Child": {
-              "Kind": "Native",
-              "Name": "Byte"
-            }
+            "Kind": "ApiRef",
+            "Name": "PSTR",
+            "TargetKind": "Default",
+            "Api": "Foundation",
+            "Parents": []
           },
           "Attrs": [
             "Out"
@@ -24323,14 +24350,11 @@
         {
           "Name": "lpBuffer",
           "Type": {
-            "Kind": "LPArray",
-            "NullNullTerm": false,
-            "CountConst": -1,
-            "CountParamIndex": 3,
-            "Child": {
-              "Kind": "Native",
-              "Name": "Char"
-            }
+            "Kind": "ApiRef",
+            "Name": "PWSTR",
+            "TargetKind": "Default",
+            "Api": "Foundation",
+            "Parents": []
           },
           "Attrs": [
             "Out"
@@ -25223,7 +25247,6 @@
             "Parents": []
           },
           "Attrs": [
-            "Out",
             "Optional"
           ]
         },
@@ -25237,7 +25260,6 @@
             "Parents": []
           },
           "Attrs": [
-            "Out",
             "Optional"
           ]
         }
@@ -25292,7 +25314,6 @@
             "Parents": []
           },
           "Attrs": [
-            "Out",
             "Optional"
           ]
         },
@@ -25306,7 +25327,6 @@
             "Parents": []
           },
           "Attrs": [
-            "Out",
             "Optional"
           ]
         }

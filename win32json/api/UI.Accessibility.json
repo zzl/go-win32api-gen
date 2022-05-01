@@ -10280,9 +10280,7 @@
           "ReturnAttrs": [],
           "Architectures": [],
           "Platform": null,
-          "Attrs": [
-            "SpecialName"
-          ],
+          "Attrs": [],
           "Params": [
             {
               "Name": "varChild",
@@ -10329,9 +10327,7 @@
           "ReturnAttrs": [],
           "Architectures": [],
           "Platform": null,
-          "Attrs": [
-            "SpecialName"
-          ],
+          "Attrs": [],
           "Params": [
             {
               "Name": "varChild",
@@ -10378,9 +10374,7 @@
           "ReturnAttrs": [],
           "Architectures": [],
           "Platform": null,
-          "Attrs": [
-            "SpecialName"
-          ],
+          "Attrs": [],
           "Params": [
             {
               "Name": "varChild",
@@ -10427,9 +10421,7 @@
           "ReturnAttrs": [],
           "Architectures": [],
           "Platform": null,
-          "Attrs": [
-            "SpecialName"
-          ],
+          "Attrs": [],
           "Params": [
             {
               "Name": "varChild",
@@ -10476,9 +10468,7 @@
           "ReturnAttrs": [],
           "Architectures": [],
           "Platform": null,
-          "Attrs": [
-            "SpecialName"
-          ],
+          "Attrs": [],
           "Params": [
             {
               "Name": "varChild",
@@ -10525,9 +10515,7 @@
           "ReturnAttrs": [],
           "Architectures": [],
           "Platform": null,
-          "Attrs": [
-            "SpecialName"
-          ],
+          "Attrs": [],
           "Params": [
             {
               "Name": "varChild",
@@ -10574,9 +10562,7 @@
           "ReturnAttrs": [],
           "Architectures": [],
           "Platform": null,
-          "Attrs": [
-            "SpecialName"
-          ],
+          "Attrs": [],
           "Params": [
             {
               "Name": "varChild",
@@ -10623,9 +10609,7 @@
           "ReturnAttrs": [],
           "Architectures": [],
           "Platform": null,
-          "Attrs": [
-            "SpecialName"
-          ],
+          "Attrs": [],
           "Params": [
             {
               "Name": "pszHelpFile",
@@ -10685,9 +10669,7 @@
           "ReturnAttrs": [],
           "Architectures": [],
           "Platform": null,
-          "Attrs": [
-            "SpecialName"
-          ],
+          "Attrs": [],
           "Params": [
             {
               "Name": "varChild",
@@ -10806,9 +10788,7 @@
           "ReturnAttrs": [],
           "Architectures": [],
           "Platform": null,
-          "Attrs": [
-            "SpecialName"
-          ],
+          "Attrs": [],
           "Params": [
             {
               "Name": "varChild",
@@ -11118,9 +11098,7 @@
           "ReturnAttrs": [],
           "Architectures": [],
           "Platform": null,
-          "Attrs": [
-            "SpecialName"
-          ],
+          "Attrs": [],
           "Params": [
             {
               "Name": "varChild",
@@ -11163,9 +11141,7 @@
           "ReturnAttrs": [],
           "Architectures": [],
           "Platform": null,
-          "Attrs": [
-            "SpecialName"
-          ],
+          "Attrs": [],
           "Params": [
             {
               "Name": "varChild",
@@ -24002,11 +23978,14 @@
             {
               "Name": "retVal",
               "Type": {
-                "Kind": "ApiRef",
-                "Name": "HWND",
-                "TargetKind": "Default",
-                "Api": "Foundation",
-                "Parents": []
+                "Kind": "PointerTo",
+                "Child": {
+                  "Kind": "ApiRef",
+                  "Name": "HWND",
+                  "TargetKind": "Default",
+                  "Api": "Foundation",
+                  "Parents": []
+                }
               },
               "Attrs": [
                 "Out",
@@ -25142,11 +25121,14 @@
             {
               "Name": "retVal",
               "Type": {
-                "Kind": "ApiRef",
-                "Name": "HWND",
-                "TargetKind": "Default",
-                "Api": "Foundation",
-                "Parents": []
+                "Kind": "PointerTo",
+                "Child": {
+                  "Kind": "ApiRef",
+                  "Name": "HWND",
+                  "TargetKind": "Default",
+                  "Api": "Foundation",
+                  "Parents": []
+                }
               },
               "Attrs": [
                 "Out",

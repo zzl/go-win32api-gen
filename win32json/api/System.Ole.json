@@ -1824,6 +1824,26 @@
       "Attrs": []
     },
     {
+      "Name": "STDOLE_TLB",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "stdole2.tlb",
+      "Attrs": []
+    },
+    {
+      "Name": "STDTYPE_TLB",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "stdole2.tlb",
+      "Attrs": []
+    },
+    {
       "Name": "GC_WCH_SIBLING",
       "Type": {
         "Kind": "Native",
@@ -3634,6 +3654,106 @@
       "Attrs": []
     },
     {
+      "Name": "OLESTDDELIM",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "\\",
+      "Attrs": []
+    },
+    {
+      "Name": "SZOLEUI_MSG_HELP",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "OLEUI_MSG_HELP",
+      "Attrs": []
+    },
+    {
+      "Name": "SZOLEUI_MSG_ENDDIALOG",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "OLEUI_MSG_ENDDIALOG",
+      "Attrs": []
+    },
+    {
+      "Name": "SZOLEUI_MSG_BROWSE",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "OLEUI_MSG_BROWSE",
+      "Attrs": []
+    },
+    {
+      "Name": "SZOLEUI_MSG_CHANGEICON",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "OLEUI_MSG_CHANGEICON",
+      "Attrs": []
+    },
+    {
+      "Name": "SZOLEUI_MSG_CLOSEBUSYDIALOG",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "OLEUI_MSG_CLOSEBUSYDIALOG",
+      "Attrs": []
+    },
+    {
+      "Name": "SZOLEUI_MSG_CONVERT",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "OLEUI_MSG_CONVERT",
+      "Attrs": []
+    },
+    {
+      "Name": "SZOLEUI_MSG_CHANGESOURCE",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "OLEUI_MSG_CHANGESOURCE",
+      "Attrs": []
+    },
+    {
+      "Name": "SZOLEUI_MSG_ADDCONTROL",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "OLEUI_MSG_ADDCONTROL",
+      "Attrs": []
+    },
+    {
+      "Name": "SZOLEUI_MSG_BROWSE_OFN",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "OLEUI_MSG_BROWSE_OFN",
+      "Attrs": []
+    },
+    {
       "Name": "ID_BROWSE_CHANGEICON",
       "Type": {
         "Kind": "Native",
@@ -4421,6 +4541,16 @@
       },
       "ValueType": "UInt32",
       "Value": 118,
+      "Attrs": []
+    },
+    {
+      "Name": "PROP_HWND_CHGICONDLG",
+      "Type": {
+        "Kind": "Native",
+        "Name": "String"
+      },
+      "ValueType": "String",
+      "Value": "HWND_CIDLG",
       "Attrs": []
     },
     {
@@ -5911,6 +6041,226 @@
       },
       "ValueType": "UInt32",
       "Value": 1,
+      "Attrs": []
+    },
+    {
+      "Name": "fdexNameCaseSensitive",
+      "Type": {
+        "Kind": "Native",
+        "Name": "Int32"
+      },
+      "ValueType": "Int32",
+      "Value": 1,
+      "Attrs": []
+    },
+    {
+      "Name": "fdexNameEnsure",
+      "Type": {
+        "Kind": "Native",
+        "Name": "Int32"
+      },
+      "ValueType": "Int32",
+      "Value": 2,
+      "Attrs": []
+    },
+    {
+      "Name": "fdexNameImplicit",
+      "Type": {
+        "Kind": "Native",
+        "Name": "Int32"
+      },
+      "ValueType": "Int32",
+      "Value": 4,
+      "Attrs": []
+    },
+    {
+      "Name": "fdexNameCaseInsensitive",
+      "Type": {
+        "Kind": "Native",
+        "Name": "Int32"
+      },
+      "ValueType": "Int32",
+      "Value": 8,
+      "Attrs": []
+    },
+    {
+      "Name": "fdexNameInternal",
+      "Type": {
+        "Kind": "Native",
+        "Name": "Int32"
+      },
+      "ValueType": "Int32",
+      "Value": 16,
+      "Attrs": []
+    },
+    {
+      "Name": "fdexNameNoDynamicProperties",
+      "Type": {
+        "Kind": "Native",
+        "Name": "Int32"
+      },
+      "ValueType": "Int32",
+      "Value": 32,
+      "Attrs": []
+    },
+    {
+      "Name": "fdexPropCanGet",
+      "Type": {
+        "Kind": "Native",
+        "Name": "Int32"
+      },
+      "ValueType": "Int32",
+      "Value": 1,
+      "Attrs": []
+    },
+    {
+      "Name": "fdexPropCannotGet",
+      "Type": {
+        "Kind": "Native",
+        "Name": "Int32"
+      },
+      "ValueType": "Int32",
+      "Value": 2,
+      "Attrs": []
+    },
+    {
+      "Name": "fdexPropCanPut",
+      "Type": {
+        "Kind": "Native",
+        "Name": "Int32"
+      },
+      "ValueType": "Int32",
+      "Value": 4,
+      "Attrs": []
+    },
+    {
+      "Name": "fdexPropCannotPut",
+      "Type": {
+        "Kind": "Native",
+        "Name": "Int32"
+      },
+      "ValueType": "Int32",
+      "Value": 8,
+      "Attrs": []
+    },
+    {
+      "Name": "fdexPropCanPutRef",
+      "Type": {
+        "Kind": "Native",
+        "Name": "Int32"
+      },
+      "ValueType": "Int32",
+      "Value": 16,
+      "Attrs": []
+    },
+    {
+      "Name": "fdexPropCannotPutRef",
+      "Type": {
+        "Kind": "Native",
+        "Name": "Int32"
+      },
+      "ValueType": "Int32",
+      "Value": 32,
+      "Attrs": []
+    },
+    {
+      "Name": "fdexPropNoSideEffects",
+      "Type": {
+        "Kind": "Native",
+        "Name": "Int32"
+      },
+      "ValueType": "Int32",
+      "Value": 64,
+      "Attrs": []
+    },
+    {
+      "Name": "fdexPropDynamicType",
+      "Type": {
+        "Kind": "Native",
+        "Name": "Int32"
+      },
+      "ValueType": "Int32",
+      "Value": 128,
+      "Attrs": []
+    },
+    {
+      "Name": "fdexPropCanCall",
+      "Type": {
+        "Kind": "Native",
+        "Name": "Int32"
+      },
+      "ValueType": "Int32",
+      "Value": 256,
+      "Attrs": []
+    },
+    {
+      "Name": "fdexPropCannotCall",
+      "Type": {
+        "Kind": "Native",
+        "Name": "Int32"
+      },
+      "ValueType": "Int32",
+      "Value": 512,
+      "Attrs": []
+    },
+    {
+      "Name": "fdexPropCanConstruct",
+      "Type": {
+        "Kind": "Native",
+        "Name": "Int32"
+      },
+      "ValueType": "Int32",
+      "Value": 1024,
+      "Attrs": []
+    },
+    {
+      "Name": "fdexPropCannotConstruct",
+      "Type": {
+        "Kind": "Native",
+        "Name": "Int32"
+      },
+      "ValueType": "Int32",
+      "Value": 2048,
+      "Attrs": []
+    },
+    {
+      "Name": "fdexPropCanSourceEvents",
+      "Type": {
+        "Kind": "Native",
+        "Name": "Int32"
+      },
+      "ValueType": "Int32",
+      "Value": 4096,
+      "Attrs": []
+    },
+    {
+      "Name": "fdexPropCannotSourceEvents",
+      "Type": {
+        "Kind": "Native",
+        "Name": "Int32"
+      },
+      "ValueType": "Int32",
+      "Value": 8192,
+      "Attrs": []
+    },
+    {
+      "Name": "fdexEnumDefault",
+      "Type": {
+        "Kind": "Native",
+        "Name": "Int32"
+      },
+      "ValueType": "Int32",
+      "Value": 1,
+      "Attrs": []
+    },
+    {
+      "Name": "fdexEnumAll",
+      "Type": {
+        "Kind": "Native",
+        "Name": "Int32"
+      },
+      "ValueType": "Int32",
+      "Value": 2,
       "Attrs": []
     },
     {
@@ -10765,8 +11115,7 @@
                 }
               },
               "Attrs": [
-                "Out",
-                "Optional"
+                "Out"
               ]
             }
           ]
@@ -17017,7 +17366,7 @@
               },
               "Attrs": [
                 "Out",
-                "Optional"
+                "ComOutPtr"
               ]
             }
           ]

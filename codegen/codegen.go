@@ -474,7 +474,11 @@ func genConsts(api *gomodel.GoApi, w io.Writer) {
 	}
 	fmt.Fprintln(w, "const (")
 	for _, it := range api.Consts {
-		fmt.Fprintln(w, "\t"+it.Name, it.Type, "=", it.Value)
+		sValue := it.Value
+		if it.Type == "string" {
+			sValue = "\"" + sValue + "\""
+		}
+		fmt.Fprintln(w, "\t"+it.Name, it.Type, "=", sValue)
 	}
 	fmt.Fprintln(w, ")")
 	fmt.Fprintln(w)

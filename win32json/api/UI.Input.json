@@ -72,7 +72,7 @@
       "Architectures": [],
       "Platform": null,
       "Kind": "Enum",
-      "Flags": false,
+      "Flags": true,
       "Scoped": false,
       "Values": [
         {

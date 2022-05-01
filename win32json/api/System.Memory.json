@@ -632,43 +632,6 @@
           ],
           "NestedTypes": [
             {
-              "Name": "_Block_e__Struct",
-              "Architectures": [],
-              "Platform": null,
-              "Kind": "Struct",
-              "Size": 0,
-              "PackingSize": 0,
-              "Fields": [
-                {
-                  "Name": "hMem",
-                  "Type": {
-                    "Kind": "ApiRef",
-                    "Name": "HANDLE",
-                    "TargetKind": "Default",
-                    "Api": "Foundation",
-                    "Parents": []
-                  },
-                  "Attrs": []
-                },
-                {
-                  "Name": "dwReserved",
-                  "Type": {
-                    "Kind": "Array",
-                    "Shape": {
-                      "Size": 3
-                    },
-                    "Child": {
-                      "Kind": "Native",
-                      "Name": "UInt32"
-                    }
-                  },
-                  "Attrs": []
-                }
-              ],
-              "NestedTypes": [
-              ]
-            },
-            {
               "Name": "_Region_e__Struct",
               "Architectures": [],
               "Platform": null,
@@ -710,6 +673,43 @@
                     "Child": {
                       "Kind": "Native",
                       "Name": "Void"
+                    }
+                  },
+                  "Attrs": []
+                }
+              ],
+              "NestedTypes": [
+              ]
+            },
+            {
+              "Name": "_Block_e__Struct",
+              "Architectures": [],
+              "Platform": null,
+              "Kind": "Struct",
+              "Size": 0,
+              "PackingSize": 0,
+              "Fields": [
+                {
+                  "Name": "hMem",
+                  "Type": {
+                    "Kind": "ApiRef",
+                    "Name": "HANDLE",
+                    "TargetKind": "Default",
+                    "Api": "Foundation",
+                    "Parents": []
+                  },
+                  "Attrs": []
+                },
+                {
+                  "Name": "dwReserved",
+                  "Type": {
+                    "Kind": "Array",
+                    "Shape": {
+                      "Size": 3
+                    },
+                    "Child": {
+                      "Kind": "Native",
+                      "Name": "UInt32"
                     }
                   },
                   "Attrs": []
@@ -1467,6 +1467,48 @@
       ]
     },
     {
+      "Name": "MEM_ADDRESS_REQUIREMENTS",
+      "Architectures": [],
+      "Platform": null,
+      "Kind": "Struct",
+      "Size": 0,
+      "PackingSize": 0,
+      "Fields": [
+        {
+          "Name": "LowestStartingAddress",
+          "Type": {
+            "Kind": "PointerTo",
+            "Child": {
+              "Kind": "Native",
+              "Name": "Void"
+            }
+          },
+          "Attrs": []
+        },
+        {
+          "Name": "HighestEndingAddress",
+          "Type": {
+            "Kind": "PointerTo",
+            "Child": {
+              "Kind": "Native",
+              "Name": "Void"
+            }
+          },
+          "Attrs": []
+        },
+        {
+          "Name": "Alignment",
+          "Type": {
+            "Kind": "Native",
+            "Name": "UIntPtr"
+          },
+          "Attrs": []
+        }
+      ],
+      "NestedTypes": [
+      ]
+    },
+    {
       "Name": "MEM_EXTENDED_PARAMETER_TYPE",
       "Architectures": [],
       "Platform": null,
@@ -1945,8 +1987,7 @@
             "Parents": []
           },
           "Attrs": [
-            "In",
-            "Out"
+            "In"
           ]
         },
         {
@@ -2013,8 +2054,7 @@
             "Parents": []
           },
           "Attrs": [
-            "In",
-            "Out"
+            "In"
           ]
         },
         {
