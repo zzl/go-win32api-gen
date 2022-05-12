@@ -298,7 +298,7 @@ func buildCom(t *jsonmodel.Type, set map[string]bool) gomodel.Com {
 	}
 	for _, method := range t.Methods {
 		gm := gomodel.Func{
-			Name: method.Name,
+			Name: utils.CapName(method.Name),
 		}
 		for _, p := range method.Params {
 			gp := gomodel.Param{
@@ -438,6 +438,11 @@ func buildGoStruct(t *jsonmodel.Type, parentGoTypeName string,
 	return ss
 }
 
+/*
+  manual edit:
+		VARIANT.cVal -> int8
+		VARIANT.pcVal -> *int8
+*/
 func main() {
 
 	gTypeInfoMap = make(map[string]*jsonmodel.Type)
