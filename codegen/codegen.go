@@ -122,6 +122,8 @@ func genFunc(f gomodel.Func, w io.Writer) {
 	if hasRet {
 		if retType == "uintptr" {
 			fmt.Fprint(w, "\treturn ret")
+		} else if retType == "unsafe.Pointer" {
+			fmt.Fprint(w, "\treturn (", retType, ")(ret)")
 		} else if retIsPtr {
 			fmt.Fprint(w, "\treturn (", retType, ")(unsafe.Pointer(ret))")
 		} else if retIsStruct {
