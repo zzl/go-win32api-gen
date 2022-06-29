@@ -90,7 +90,7 @@ func preprocessApi(api *Api) {
 func preprocessFunctions(fs []*Function) []*Function {
 	dlls := ",advapi32,comctl32,comdlg32,gdi32,msimg32,gdiplus," +
 		"kernel32,ole32,oleaut32,pdh,shell32,shlwapi,user32,uxtheme," +
-		"version,userenv,"
+		"version,userenv,imagehlp,"
 	var newFs []*Function
 	for _, f := range fs {
 		if ignoreArch(f.Architectures) {
